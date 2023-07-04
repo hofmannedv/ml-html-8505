@@ -1,0 +1,119 @@
+= Übungen und Beispiele =
+
+* alle nachfolgenden Übungen bauen aufeinander auf
+* Ausgangspunkt: leere Datei
+* Ziel: strukturierte HTML-Datei mit separater CSS-Deklaration
+
+== HTML-Seite (Basis) ==
+
+* grundlegende, einfachste HTML-Seite aus HTML-Element
+* Plaintext ohne jegliche Strukturelemente
+
+schritt-01.html
+----
+<HTML>
+Veranstaltungsübersicht
+</HTML>
+----
+
+== HTML-Seite mit Überschrift und Absatz ==
+
+* grundlegende, einfachste HTML-Seite aus HTML-Element
+* erste Strukturelemente für Überschrift und Absatz 
+* Einrückung zur Lesbarkeit
+
+schritt-02.html
+----
+<HTML>
+  <H1>Veranstaltungsübersicht</H1>
+  <P>Herzlich willkommen im Konferenzzentrum. Heute finden diese Veranstaltungen statt:</P>
+</HTML>
+----
+
+== HTML-Seite mit Überschrift, Absatz, Kopf- und Fußzeile ==
+
+* grundlegende, einfachste HTML-Seite aus HTML-Element
+* Strukturelemente für Überschrift, Absatz, Kopf- und Fußzeile
+
+schritt-03.html
+----
+<HTML>
+  <HEADER>
+    <P>Koblenz, den 1. Juli 2023</P>
+    <HR>
+  </HEADER>
+
+  <H1>Veranstaltungsübersicht</H1>
+  <P>Herzlich willkommen im Konferenzzentrum. Heute finden diese Veranstaltungen statt:</P>
+
+  <FOOTER>
+    <HR>
+    <P>Gestaltung durch Punkt und Komma Designagentur</P>
+  </FOOTER>
+</HTML>
+----
+
+== HTML-Seite mit Basis-Struktur ==
+
+* Webseite, ergänzt um Struktur aus Dokumentdeklaration, -informationen
+  und -inhalt für sichtbare (<BODY>) und nicht sichtbare Bestandteile
+  (<HEAD>)
+
+schritt-04.html
+----
+<!DOCTYPE html>
+<HTML lang="de">
+  <HEAD>
+    <META charset="utf8"</META>
+    <META name="description" content="Übersicht zu den Veranstaltungen, die heute stattfinden"</META>
+    <TITLE>Konferenzzentrum Koblenz - Veranstaltungsübersicht</TITLE>
+  </HEAD>
+  <BODY>
+    <HEADER>
+      <P>Koblenz, den 1. Juli 2023</P>
+      <HR>
+    </HEADER>
+
+    <H1>Veranstaltungsübersicht</H1>
+    <P>Herzlich willkommen im Konferenzzentrum. Heute finden diese Veranstaltungen statt:</P>
+
+    <FOOTER>
+      <HR>
+      <P>Gestaltung durch Punkt und Komma Designagentur</P>
+    </FOOTER>
+  </BODY>
+</HTML>
+----
+
+== Einbindung eines Cascading Stylesheets (CSS) aus externer Datei ==
+
+* Datei: design.css
+
+schritt-05.html
+----
+<!DOCTYPE html>
+<HTML lang="de">
+  <HEAD>
+    <META charset="utf8"</META>
+    <META name="description" content="Übersicht zu den Veranstaltungen, die heute stattfinden"</META>
+    <TITLE>Konferenzzentrum Koblenz - Veranstaltungsübersicht</TITLE>
+    <LINK href="design.css" rel="stylesheet">
+  </HEAD>
+  <BODY>
+    <HEADER>
+      <P>Koblenz, den 1. Juli 2023</P>
+      <HR>
+    </HEADER>
+
+    <H1>Veranstaltungsübersicht</H1>
+    <P>Herzlich willkommen im Konferenzzentrum. Heute finden diese
+
+    <FOOTER>
+      <HR>
+      <P>Gestaltung durch Punkt und Komma Designagentur</P>
+    </FOOTER>
+  </BODY>
+</HTML>
+----
+
+
