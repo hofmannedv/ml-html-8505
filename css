@@ -11,7 +11,22 @@ referenziert und eingebunden.
 
 Interne Angabe im Header des HTML-Dokuments:
 ----
-ToDo
+<!DOCTYPE html>
+<HTML lang="de">
+  <HEAD>
+    <META charset="utf8"</META>
+    <META name="description" content="Übersicht zu den Veranstaltungen, die heute stattfinden"</META>
+    <TITLE>Konferenzzentrum Koblenz - Veranstaltungsübersicht</TITLE>
+    <STYLE>
+      p {
+        background-color: yellow /* alle Absätze mit gelbem Hintergrund */
+      }
+    </STYLE>
+  </HEAD>
+  <BODY>
+  ...
+  </BODY>
+</HTML>
 ----
 
 Direkte Angabe bei einem HTML-Tag
