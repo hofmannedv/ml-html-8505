@@ -8,6 +8,16 @@ Ein CSS kann auf zwei Arten für eine Webseite (HTML-Datei) hinterlegt
 werden -- intern im Header des HTML-Dokuments sowie als externe Datei.
 Bei letzterem wird diese dann referenziert und eingebunden.
 
+Interne Angabe im Header des HTML-Dokuments:
+----
+ToDo
+----
+
+Einbindung als externe CSS-Datei
+----
+ToDo
+----
+
 Der Webbrowser wertet die Stilvorlagen aus und wendet sie auf die 
 HTML-Tags an. Daraus ergibt sich, wie der Webbrowser die HTML-Elemente 
 auf der Webseite darstellt. Die Interpretation und tatsächliche 
