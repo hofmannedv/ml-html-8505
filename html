@@ -12,10 +12,10 @@ Variante									Beispiel
 </Tag> (schließend)							</P>, </TABLE>
 <Tag/> (öffnend und schließend in einem)	<BR>, <HR>
 -----------------------------------------------------------
-<Tag> (öffnend)								<P>, <TABLE>
 
 In der Regel gilt, sofern ein öffnendes Tag besteht, existiert dazu auch
-ein korrespondierendes, schließendes Tag.
+ein korrespondierendes, schließendes Tag. Die Groß- oder Kleinschreibung
+spielt für die Richtigkeit eines Tags keine Rolle.
     
 Der Webbrowser interpretiert diese Tags und rendert daraus die Inhalte
 der Webseite. Die Interpretation und tatsächliche Darstellung im 
@@ -30,3 +30,30 @@ Webbrowser ist abhängig von:
 
 Tags dürfen Sie ineinander schachteln. Dabei ist eine Einrückung der
 Ebenen nicht verpflichtend, erhöht aber die Lesbarkeit des HTML-Codes.
+
+Beispiel ohne Einrückung (Tabelle mit Kopfzeile)
+----
+<TABLE>
+<TR><TH>Raum</TH><TH>Veranstaltung</TH></TR>
+<TR><TD>105</TD><TD>Grundlagen HTML</TD></TR>
+<TR><TD>107</TD><TD>Linux - Umgang mit der Kommandozeile</TD></TR>
+</TABLE>
+----
+
+Beispiel mit Einrückung (Tabelle mit Kopfzeile)
+----
+<TABLE>
+  <TR>
+    <TH>Raum</TH>
+    <TH>Veranstaltung</TH>
+  </TR>
+  <TR>
+    <TD>105</TD>
+    <TD>Grundlagen HTML</TD>
+  </TR>
+  <TR>
+    <TD>107</TD>
+    <TD>Linux - Umgang mit der Kommandozeile</TD>
+  </TR>
+</TABLE>
+----
