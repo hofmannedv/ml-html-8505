@@ -1,14 +1,17 @@
 == CSS ==
 
-* Abkürzung für Cascading Stylesheets
-* Beschreibungssprache für die Stilvorlagen
-* kann hinterlegt werden: 
-  - intern im Header des HTML-Dokuments
-  - als externe Datei und wird dann referenziert/eingebunden
-    
-* Webbrowser interpretiert diese Beschreibungen für die HTML-Tags und 
-  leitet daraus die Darstellung der Elemente auf der Webseite ab
-* die Interpretation und tatsächliche Darstellung im Webbrowser ist 
-  abhängig von: 
-  - der Umsetzung im Webbrowser (wie es programmiert wurde)
-  - der Unterstützung im Webbrowser. 
+CSS kürzt den Begriff Cascading Stylesheets ab, auf deutsch
+Kaskadierende Stilvorlagen. Es ist eine Beschreibungssprache für die
+Stilangabe von HTML-Elementen.
+
+Ein CSS kann auf zwei Arten für eine Webseite (HTML-Datei) hinterlegt 
+werden -- intern im Header des HTML-Dokuments sowie als externe Datei.
+Bei letzterem wird diese dann referenziert und eingebunden.
+
+Der Webbrowser wertet die Stilvorlagen aus und wendet sie auf die 
+HTML-Tags an. Daraus ergibt sich, wie der Webbrowser die HTML-Elemente 
+auf der Webseite darstellt. Die Interpretation und tatsächliche 
+Darstellung im Webbrowser ist abhängig von der Umsetzung im Webbrowser,
+sprich: wie die Anwendung der Stilvorlage im Webbrowser programmiert
+wurde, und von der Unterstützung im Webbrowser. Nicht jeder Webbrowser
+unterstützt alle Elemente der Stilvorlagen.
