@@ -31,7 +31,7 @@ Interne Angabe im Header des HTML-Dokuments:
 
 Direkte Angabe bei einem HTML-Tag
 ----
-ToDo
+<P style="background-color: whitesmoke; color: darkred;">Text</P>
 ----
 
 Einbindung des der Stilvorlage design.css als externe CSS-Datei
