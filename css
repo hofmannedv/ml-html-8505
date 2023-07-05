@@ -13,9 +13,20 @@ Interne Angabe im Header des HTML-Dokuments:
 ToDo
 ----
 
-Einbindung als externe CSS-Datei
+Einbindung des der Stilvorlage design.css als externe CSS-Datei
 ----
-ToDo
+<!DOCTYPE html>
+<HTML lang="de">
+  <HEAD>
+    <META charset="utf8"</META>
+    <META name="description" content="Übersicht zu den Veranstaltungen, die heute stattfinden"</META>
+    <TITLE>Konferenzzentrum Koblenz - Veranstaltungsübersicht</TITLE>
+    <LINK href="design.css" rel="stylesheet">
+  </HEAD>
+  <BODY>
+  ...
+  </BODY>
+</HTML>
 ----
 
 Der Webbrowser wertet die Stilvorlagen aus und wendet sie auf die 
