@@ -4,11 +4,17 @@ CSS kürzt den Begriff Cascading Stylesheets ab, auf deutsch
 Kaskadierende Stilvorlagen. Es ist eine Beschreibungssprache für die
 Stilangabe von HTML-Elementen.
 
-Ein CSS kann auf zwei Arten für eine Webseite (HTML-Datei) hinterlegt 
-werden -- intern im Header des HTML-Dokuments sowie als externe Datei.
-Bei letzterem wird diese dann referenziert und eingebunden.
+Ein CSS kann auf drei Arten für eine Webseite (HTML-Datei) hinterlegt 
+werden -- intern im Header des HTML-Dokuments, als direkte Angabe im
+HTML-Tag sowie als externe Datei. Bei letzterem wird diese dann 
+referenziert und eingebunden.
 
 Interne Angabe im Header des HTML-Dokuments:
+----
+ToDo
+----
+
+Direkte Angabe bei einem HTML-Tag
 ----
 ToDo
 ----
