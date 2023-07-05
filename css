@@ -1,0 +1,14 @@
+== CSS ==
+
+* Abkürzung für Cascading Stylesheets
+* Beschreibungssprache für die Stilvorlagen
+* kann hinterlegt werden: 
+  - intern im Header des HTML-Dokuments
+  - als externe Datei und wird dann referenziert/eingebunden
+    
+* Webbrowser interpretiert diese Beschreibungen für die HTML-Tags und 
+  leitet daraus die Darstellung der Elemente auf der Webseite ab
+* die Interpretation und tatsächliche Darstellung im Webbrowser ist 
+  abhängig von: 
+  - der Umsetzung im Webbrowser (wie es programmiert wurde)
+  - der Unterstützung im Webbrowser. 
