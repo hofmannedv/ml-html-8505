@@ -11,7 +11,12 @@ Bei letzterem wird diese dann referenziert und eingebunden.
 Der Webbrowser wertet die Stilvorlagen aus und wendet sie auf die 
 HTML-Tags an. Daraus ergibt sich, wie der Webbrowser die HTML-Elemente 
 auf der Webseite darstellt. Die Interpretation und tatsächliche 
-Darstellung im Webbrowser ist abhängig von der Umsetzung im Webbrowser,
-sprich: wie die Anwendung der Stilvorlage im Webbrowser programmiert
-wurde, und von der Unterstützung im Webbrowser. Nicht jeder Webbrowser
-unterstützt alle Elemente der Stilvorlagen.
+Darstellung im Webbrowser ist abhängig von: 
+
+* der Umsetzung im Webbrowser, sprich: wie die tatsächliche Anwendung 
+  der Stilvorlage im Webbrowser programmiert wurde,
+* wie die interne Stilvorlage des Webbrowsers aussieht, sprich: was ist
+  als Defaultwerte im Webbrowser hinterlegt, und
+* von der Unterstützung im Webbrowser. Nicht jeder Webbrowser unterstützt 
+  alle Elemente der Stilvorlagen des CSS-Standards.
+
