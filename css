@@ -7,7 +7,13 @@ Stilangabe von HTML-Elementen.
 Ein CSS kann auf drei Arten für eine Webseite (HTML-Datei) hinterlegt 
 werden -- intern im Header des HTML-Dokuments, als direkte Angabe im
 HTML-Tag sowie als externe Datei. Bei letzterem wird diese dann 
-referenziert und eingebunden.
+referenziert und eingebunden, idealerweise im Header der HTML-Datei.
+
+=== Interne Angabe ===
+
+Hier hinterlegen Sie die Stilvorlage im Header der HTML-Datei. Das
+erfolgt mit Hilfe eines <STYLE>-Tags. Die Angaben in der Stilvorlage
+gelten für alle HTML-Tags im Dokument.
 
 Interne Angabe im Header des HTML-Dokuments:
 ----
