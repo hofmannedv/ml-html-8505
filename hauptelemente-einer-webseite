@@ -6,6 +6,24 @@ html:		Beginn der Beschreibung der Seite
 - head:		Kopfinformationen zur HTML-Datei
 - body:		tatsächlicher Inhalt der HTML-Datei
 
+* doctype: 
+  - gibt den Typ des Dokuments fest, hier: HTML
+  - hilft dem Webbrowser, zu unterscheiden, was für eine Art Datei er vor
+    sich hat
+
+* html:
+  - Beschreibung der Webseite
+  - alle Zeilen/Zeichen zwischen <HTML> und </HTML> gehören dazu
+  - alle Zeilen/Zeichen außerhalb gehören nicht zur Beschreibung der
+    Webseite
+  - Aufteilung in zwei (Unter-)Bereiche -- <head> und <body>
+
+* head:
+  - ToDo
+
+* body:
+  - ToDo
+
 Grundsätzlicher Aufbau der Seite
 ----
 <!DOCTYPE html>
