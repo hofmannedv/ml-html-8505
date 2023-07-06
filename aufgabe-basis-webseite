@@ -1,0 +1,11 @@
+Erstellung einer HTML-Datei ...
+
+- weißer Hintergrund der Seite
+- schwarze Schrift
+- Stilvorlage im Kopf der HTML-Datei hinterlegt (nicht als externe Vorlage)
+- Seitentitel "Konferenzinformationssystem"
+- keine Beschreibung der Seite
+- Seiteninhalt:
+  * Kopfzeile aus Navigationselementen und Linie am unteren Rand
+  * Fußzeile mit Copyright-Information und Linie am oberen Rand
+  * Inhalt als Absatz mit Text
