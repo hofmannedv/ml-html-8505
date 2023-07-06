@@ -1,0 +1,8 @@
+== Hauptelemente einer Webseite ==
+
+* grundsätzliche Unterteilung in zwei Bereiche:
+
+head:	Kopfinformationen zur HTML-Datei
+body:	tatsächlicher Inhalt der HTML-Datei
+
+
