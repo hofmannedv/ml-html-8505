@@ -82,9 +82,16 @@ Einbindung der Stilvorlage design.css als externe CSS-Datei
 
 === Direkte Angabe zu einem HTML-Tag ===
 
+Mit diesem Schritt legen Sie die Gestaltung eines einzelnen HTML-Tags
+fest. Das erfolgt über ein style-Attribut mit den dazugehörigen Werten.
+Andere HTML-Tags werden hiermit in ihrem Aussehen nicht verändert.
+
+Sollen identische HTML-Tags im Webbrowser gleich dargestellt werden,
+lagern Sie die Gestaltung in eine Stilvorlage aus -- entweder in den
+Header der HTML-Datei oder als externe Datei.
+
 Direkte Angabe bei einem HTML-Tag
 ----
 <P style="background-color: whitesmoke; color: darkred;">Text</P>
 ----
-
 
