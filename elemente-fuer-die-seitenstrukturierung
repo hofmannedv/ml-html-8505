@@ -1,3 +1,12 @@
 == Elemente für die Seitenstrukturierung ==
 
-* ToDo
+- <P>:			Absatz
+- <BR>:			Zeilenumbruch
+- <HR>:			horizontale Linie
+- <HEADER>:		Kopfbereich einer Seite
+- <FOOTER>:		Fußbereich einer Seite
+- <NAV>:		Navigationsbereich
+- <MAIN>:		Hauptinhaltsbereich
+- <SECTION>:	inhaltliche Einteilung in Abschnitte
+- <ARTICLE>:	in sich geschlossene inhaltliche Blöcke
+- <ASIDE>:		Bereiche mit zusätzlichen Informationen
