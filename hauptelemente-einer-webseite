@@ -5,4 +5,19 @@
 head:	Kopfinformationen zur HTML-Datei
 body:	tatsächlicher Inhalt der HTML-Datei
 
+Grundsätzlicher Aufbau der Seite
+----
+<!DOCTYPE html>
+<HTML lang="de">
+  <HEAD>
+    <META charset="utf8"</META>
+    <META name="description" content="Übersicht zu den Veranstaltungen, die heute stattfinden"</META>
+    <TITLE>Konferenzzentrum Koblenz - Veranstaltungsübersicht</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>Veranstaltungsübersicht</H1>
+    <P>Herzlich willkommen im Konferenzzentrum. Heute finden diese Veranstaltungen statt:</P>
+  </BODY>
+</HTML>
+----
 
