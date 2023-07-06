@@ -9,11 +9,29 @@ werden -- intern im Header des HTML-Dokuments, als direkte Angabe im
 HTML-Tag sowie als externe Datei. Bei letzterem wird diese dann 
 referenziert und eingebunden, idealerweise im Header der HTML-Datei.
 
+Der Webbrowser wertet die Stilvorlagen aus und wendet sie auf die 
+HTML-Tags an. Daraus ergibt sich, wie der Webbrowser die HTML-Elemente 
+auf der Webseite darstellt. Die Interpretation und tatsächliche 
+Darstellung im Webbrowser ist abhängig von: 
+
+* der Umsetzung im Webbrowser, sprich: wie die tatsächliche Anwendung 
+  der Stilvorlage im Webbrowser programmiert wurde,
+* wie die interne Stilvorlage des Webbrowsers aussieht, sprich: was ist
+  als Defaultwerte im Webbrowser hinterlegt, und
+* von der Unterstützung im Webbrowser. Nicht jeder Webbrowser unterstützt 
+  alle Elemente der Stilvorlagen des CSS-Standards.
+
 === Interne Angabe ===
 
 Hier hinterlegen Sie die Stilvorlage im Header der HTML-Datei. Das
 erfolgt mit Hilfe eines <STYLE>-Tags. Die Angaben in der Stilvorlage
 gelten für alle HTML-Tags im Dokument.
+
+Diese Vorgehensweise bietet sich nur an, wenn Sie eine einzige
+HTML-Datei gestalten. Kommt die Stilvorlage bei mehreren HTML-Dateien
+zum Einsatz, lagern Sie die Stilvorlage in eine externe Datei aus und
+binden diese ein. Das minimiert den Aufwand, wenn Sie die Stilvorlage
+später ändern.
 
 Interne Angabe im Header des HTML-Dokuments:
 ----
@@ -35,12 +53,9 @@ Interne Angabe im Header des HTML-Dokuments:
 </HTML>
 ----
 
-Direkte Angabe bei einem HTML-Tag
-----
-<P style="background-color: whitesmoke; color: darkred;">Text</P>
-----
+=== Einbindung der Stilvorlage als externe Datei ===
 
-Einbindung des der Stilvorlage design.css als externe CSS-Datei
+Einbindung der Stilvorlage design.css als externe CSS-Datei
 ----
 <!DOCTYPE html>
 <HTML lang="de">
@@ -56,15 +71,11 @@ Einbindung des der Stilvorlage design.css als externe CSS-Datei
 </HTML>
 ----
 
-Der Webbrowser wertet die Stilvorlagen aus und wendet sie auf die 
-HTML-Tags an. Daraus ergibt sich, wie der Webbrowser die HTML-Elemente 
-auf der Webseite darstellt. Die Interpretation und tatsächliche 
-Darstellung im Webbrowser ist abhängig von: 
+=== Direkte Angabe zu einem HTML-Tag ===
 
-* der Umsetzung im Webbrowser, sprich: wie die tatsächliche Anwendung 
-  der Stilvorlage im Webbrowser programmiert wurde,
-* wie die interne Stilvorlage des Webbrowsers aussieht, sprich: was ist
-  als Defaultwerte im Webbrowser hinterlegt, und
-* von der Unterstützung im Webbrowser. Nicht jeder Webbrowser unterstützt 
-  alle Elemente der Stilvorlagen des CSS-Standards.
+Direkte Angabe bei einem HTML-Tag
+----
+<P style="background-color: whitesmoke; color: darkred;">Text</P>
+----
+
 
