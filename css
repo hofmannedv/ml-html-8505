@@ -55,6 +55,15 @@ Interne Angabe im Header des HTML-Dokuments:
 
 === Einbindung der Stilvorlage als externe Datei ===
 
+Hier hinterlegen Sie die Stilvorlage zunächst als externe Datei und
+binden diese danach im Header der HTML-Datei ein. Das erfolgt mit Hilfe
+des <LINK>-Tags im Header der HTML-Datei. Die Angaben in der Stilvorlage
+gelten für alle HTML-Tags im Dokument.
+
+Diese Vorgehensweise bietet sich an, wenn Sie mehrere HTML-Dateien
+gestalten. Das minimiert den Aufwand, wenn Sie die Stilvorlage später
+ändern oder eine Corporate Identity (CI) austauschen.
+
 Einbindung der Stilvorlage design.css als externe CSS-Datei
 ----
 <!DOCTYPE html>
