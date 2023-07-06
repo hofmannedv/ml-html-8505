@@ -64,8 +64,8 @@ schritt-04.html
 <!DOCTYPE html>
 <HTML lang="de">
   <HEAD>
-    <META charset="utf8"</META>
-    <META name="description" content="Übersicht zu den Veranstaltungen, die heute stattfinden"</META>
+    <META charset="utf8">
+    <META name="description" content="Übersicht zu den Veranstaltungen, die heute stattfinden">
     <TITLE>Konferenzzentrum Koblenz - Veranstaltungsübersicht</TITLE>
   </HEAD>
   <BODY>
@@ -94,8 +94,8 @@ schritt-05.html
 <!DOCTYPE html>
 <HTML lang="de">
   <HEAD>
-    <META charset="utf8"</META>
-    <META name="description" content="Übersicht zu den Veranstaltungen, die heute stattfinden"</META>
+    <META charset="utf8">
+    <META name="description" content="Übersicht zu den Veranstaltungen, die heute stattfinden">
     <TITLE>Konferenzzentrum Koblenz - Veranstaltungsübersicht</TITLE>
     <LINK href="design.css" rel="stylesheet">
   </HEAD>
