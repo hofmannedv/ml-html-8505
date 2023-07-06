@@ -1,41 +1,47 @@
 == Hauptelemente einer Webseite ==
 
-* grundsätzliche Unterteilung in zwei Bereiche:
+Eine HTML-Datei unterteilt sich grundsätzlich in zwei Bereiche:
+
 doctype:	Dokumententyp, hier: HTML
 html:		Beginn der Beschreibung der Seite
-- head:
-  Kopfinformationen zur HTML-Datei (unsichtbarer Teil der Webseite)
-- body:
-  tatsächlicher Inhalt der HTML-Datei (sichtbarer Teil der Webseite)
 
-* doctype: 
-  - gibt den Typ des Dokuments fest, hier: HTML
-  - hilft dem Webbrowser, zu unterscheiden, was für eine Art Datei er vor
-    sich hat
+Der Bereich html unterteilt sich wiederum in zwei Bereiche:
 
-* html:
-  - Beschreibung der Webseite
-  - alle Zeilen/Zeichen zwischen <HTML> und </HTML> gehören dazu
-  - alle Zeilen/Zeichen außerhalb gehören nicht zur Beschreibung der
-    Webseite
-  - Sprachangabe (in welcher Sprache sind die Inhalte der Webseite
-    verfasst) als Attribut zum <HTML>-Tag:
+head:		Kopfinformationen zur HTML-Datei (unsichtbarer Teil der Webseite)
+body:		tatsächlicher Inhalt der HTML-Datei (sichtbarer Teil der Webseite)
 
-    ----
-    <HTML lang=de>
-    ----
+=== doctype ===
 
-    * Attribut: lang als Abkürzung für language
-    * Wert des Attributs: de für deutsche Sprache
+Dieser gibt den Typ des Dokuments fest, hier: HTML. Für andere
+Dokumentenformate bestehen ähnliche Angaben. Das hilft dem Webbrowser, zu 
+unterscheiden, was für eine Art Datei er vor sich hat.
 
-    surft ein Benutzer die Webseite mit einer Webbrowser an, der auf
-    eine andere Sprache eingestellt ist (bspw. Englisch), bietet der 
-    Webbrowser meist eine automatische Übersetzung der Inhalte in diese 
-    Sprache an, sprich: der Benutzer sieht die Webseite bei sich dann
-    in Englisch anstatt von Deutsch mit Hilfe eine automatisierten
-    Übersetzung
+=== html ===
 
-  - Aufteilung in zwei (Unter-)Bereiche -- <head> und <body>
+Hier befindet sich die Beschreibung der Webseite. Alle Zeilen/Zeichen
+zwischen den beiden Tags <HTML> und </HTML> gehören dazu. Alle
+Zeilen/Zeichen außerhalb dieser beiden Tags gehören nicht zur
+Beschreibung der Webseite.
+
+Mit Hilfe der Sprachangabe helfen Sie ihrem Webbrowser, zu erkennen, in
+welcher Sprache Sie die Inhalte der Webseite verfasst haben. Sie geben
+das als Attribut zum <HTML>-Tag wie folgt an:
+
+----
+<HTML lang=de>
+----
+
+Das Attribut lang steht als Abkürzung für language. Der Wert des
+Attributs gibt die Sprache an, hier ist es "de" für deutsche Sprache.
+
+Surft ein Benutzer die Webseite mit einer Webbrowser an, der auf eine
+andere Sprache eingestellt ist (bspw. Englisch), bietet der Webbrowser
+meist eine automatische Übersetzung der Inhalte in diese Sprache an,
+sprich: der Benutzer sieht die Webseite bei sich dann in Englisch
+anstatt von Deutsch mit Hilfe einer automatisierten Übersetzung.
+
+Dieser Bereich ist in zwei (Unter-)Bereiche aufgeteilt -- <head> und
+<body>.
 
 * head:
   - beinhaltet die Kopfinformationen zur HTML-Datei
