@@ -16,13 +16,31 @@ html:		Beginn der Beschreibung der Seite
   - alle Zeilen/Zeichen zwischen <HTML> und </HTML> gehören dazu
   - alle Zeilen/Zeichen außerhalb gehören nicht zur Beschreibung der
     Webseite
+  - Sprachangabe (in welcher Sprache sind die Inhalte der Webseite
+    verfasst) als Attribut zum <HTML>-Tag:
+
+    ----
+    <HTML lang=de>
+    ----
+
+    * Attribut: lang als Abkürzung für language
+    * Wert des Attributs: de für deutsche Sprache
+
+    surft ein Benutzer die Webseite mit einer Webbrowser an, der auf
+    eine andere Sprache eingestellt ist (bspw. Englisch), bietet der 
+    Webbrowser meist eine automatische Übersetzung der Inhalte in diese 
+    Sprache an, sprich: der Benutzer sieht die Webseite bei sich dann
+    in Englisch anstatt von Deutsch mit Hilfe eine automatisierten
+    Übersetzung
+
   - Aufteilung in zwei (Unter-)Bereiche -- <head> und <body>
 
 * head:
-  - ToDo
+  - beinhaltet die Kopfinformationen zur HTML-Datei
+  - mögliche Informationen sind:
 
 * body:
-  - ToDo
+  - beinhaltet die tatsächlichen Inhalte der HTML-Datei
 
 Grundsätzlicher Aufbau der Seite
 ----
