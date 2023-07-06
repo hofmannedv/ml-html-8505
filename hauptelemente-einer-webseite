@@ -43,35 +43,42 @@ anstatt von Deutsch mit Hilfe einer automatisierten Übersetzung.
 Dieser Bereich ist in zwei (Unter-)Bereiche aufgeteilt -- <head> und
 <body>.
 
-* head:
-  - beinhaltet die Kopfinformationen zur HTML-Datei
-  - mögliche Informationen sind:
-    * Zeichensatz, hier für Unicode UTF-8
+=== head ===
 
-      ----
-      <META charset="utf8">
-      ----
+Dieser Bereich beinhaltet die Kopfinformationen zur HTML-Datei. Mögliche
+Angaben sind darin:
 
-    * Beschreibung der Webseite
+* Zeichensatz, hier für Unicode UTF-8
 
-      ----
-      <META name="description" content="Beschreibung">
-      ----
+  ----
+  <META charset="utf8">
+  ----
 
-    * Darstellung und Medieninformationen auf dem Ausgabegerät
+* Beschreibung der Webseite
 
-      ----
-      <META name="viewport" content="Angabe zur Darstellung">
-      ----
+  ----
+  <META name="description" content="Beschreibung">
+  ----
 
-    * Titel der Webseite
+* Darstellung und Medieninformationen auf dem Ausgabegerät
 
-      ----
-      <TITLE>Konferenzzentrum Koblenz - Veranstaltungsübersicht</TITLE>
-      ----
+  ----
+  <META name="viewport" content="Angabe zur Darstellung">
+  ----
 
-* body:
-  - beinhaltet die tatsächlichen Inhalte der HTML-Datei
+  Darüber legen Sie fest, wie die HTML-Seite auf einem Bildschirm,
+  Tablet oder Smartphone angezeigt werden soll.
+
+* Titel der Webseite
+
+  ----
+  <TITLE>Konferenzzentrum Koblenz - Veranstaltungsübersicht</TITLE>
+  ----
+
+=== body ===
+
+Dieser Bereich beinhaltet die tatsächlichen Inhalte der HTML-Datei. Das
+nachfolgende Beispiel zeigt den grundsätzlichen Aufbau einer Webseite.
 
 Grundsätzlicher Aufbau der Seite
 ----
