@@ -112,7 +112,7 @@ Lösung:
   </MAIN>
   <FOOTER>
     <HR>
-    &copy; KIT
+    <DIV align="right">&copy; KIT</DIV>
   </FOOTER>
 </BODY>
 </HTML>
@@ -152,7 +152,7 @@ Lösung:
   </MAIN>
   <FOOTER>
     <HR>
-    &copy; KIT
+    <DIV align="right">&copy; KIT</DIV>
   </FOOTER>
 </BODY>
 </HTML>
