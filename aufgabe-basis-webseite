@@ -118,3 +118,44 @@ Lösung:
 </HTML>
 ----
 
+== Aufgabe 5: Seitenüberschrift ==
+
+Wandeln Sie den Absatz in eine Überschrift der Klasse H1 um.
+Ergänzen Sie die Stilvorlage so, dass
+
+* der Hintergrund der Überschrift in dunkelblau dargestellt wird
+  (Farbcode #00008B)
+* der Text der Überschrift in weiss erscheint (Farbcode #FFF)
+
+Lösung:
+
+----
+<HTML lang="de">
+<HEAD>
+  <TITLE>Veranstaltungsübersicht</TITLE>
+  <META name="description" content="Übersicht zu den Veranstaltungen">
+  <META charset="utf8">
+  <STYLE>
+    h1 {
+      background-color: #00008B;
+      color: white;
+    }
+  </STYLE>
+</HEAD>
+<BODY>
+  <HEADER>
+    1. Juli 2023
+    <HR>
+  </HEADER>
+  <MAIN>
+    <H1>Übersicht zu den Veranstaltungen</H1>
+  </MAIN>
+  <FOOTER>
+    <HR>
+    &copy; KIT
+  </FOOTER>
+</BODY>
+</HTML>
+----
+
+
