@@ -12,7 +12,7 @@ Sie die Stilangabe im Kopf der HTML-Datei wie folgt:
   einen Abstand von 0.5rem ein
 * entfernen Sie den Zwischenraum zwischen den Zellen
 
-Lösung mit Beispieldaten:
+=== Lösung mit Beispieldaten ===
 
 ----
 <HTML lang="de">
@@ -88,3 +88,7 @@ Lösung mit Beispieldaten:
 </HTML>
 ----
 
+=== Zielstellung und Wissenserwerb ===
+
+* anpassen der internen Stilvorlage
+* Kennenlernen der Attribute zur Darstellung der Tabelle
