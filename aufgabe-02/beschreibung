@@ -1,0 +1,22 @@
+== Aufgabe 2: Erweiterung um Angaben im HTML-Header ==
+
+Ergänzen Sie das Ergebnis von Aufgabe 1 um diese Elemente:
+
+* Beschreibung zur Seite "Übersicht zu den Veranstaltungen"
+* Angabe des Zeichensatzes/Encodings Unicode/UTF-8
+
+Lösung: 
+
+----
+<HTML lang="de">
+<HEAD>
+  <TITLE>Veranstaltungsübersicht</TITLE>
+  <META name="description" content="Übersicht zu den Veranstaltungen">
+  <META charset="utf8">
+</HEAD>
+<BODY>
+  <P>Übersicht zu den Veranstaltungen</P>
+</BODY>
+</HTML>
+----
+
