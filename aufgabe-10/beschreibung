@@ -4,7 +4,7 @@ Bislang stehen die Stilangaben direkt im Kopf der HTML-Datei. Separieren
 Sie nun beide Inhalte voneinander, speichern die Stilangaben in der
 Datei stilvorlage.css ab und binden diese im Kopf der HTML-Datei ein.
 
-Lösung mit Beispieldaten:
+=== Lösung mit Beispieldaten ===
 
 aufgabe-10.html
 ----
@@ -88,3 +88,7 @@ stilvorlage.css
     }
 ----
 
+=== Zielstellung und Wissenserwerb ===
+
+* Separierung von Inhalt und Aussehen
+* Einbindung der Stilvorlage aus einer externen Datei
