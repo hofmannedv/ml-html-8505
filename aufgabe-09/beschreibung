@@ -6,7 +6,7 @@ ab. Ergänzen Sie die Stilangabe im Kopf der HTML-Datei wie folgt:
 * färben Sie jede gerade Zeile der Tabelle in einem dunkleren grau ein
 * vergrößern Sie die Darstellung der Tabelle auf die gesamte Seitenbreite
 
-Lösung mit Beispieldaten:
+=== Lösung mit Beispieldaten ===
 
 ----
 <HTML lang="de">
@@ -86,3 +86,7 @@ Lösung mit Beispieldaten:
 </HTML>
 ----
 
+=== Zielstellung und Wissenserwerb ===
+
+* anpassen der internen Stilvorlage zur Erhöhung der Lesbarkeit 
+  der Darstellung
