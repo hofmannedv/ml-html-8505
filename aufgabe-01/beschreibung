@@ -35,12 +35,13 @@ die Datei anschließend in ihrem Webbrowser.
 
 === Lernziele ===
 
-* Kennenlernen des grundlegenden Aufbaus einer HTML-Datei
-* Unterscheidung zwischen HTML-Tag, Text und HTML-Attribut
+Sie lernen den grundlegenden Aufbau einer HTML-Datei kennen.
+Sie können zwischen einem HTML-Tag, Text und HTML-Attribut
+unterscheiden.
 
 === Fragen zur Lerneinheit ===
 
-* Wofür steht die Abkürzung HTML?
+* Wodurch unterscheiden sich HTML und eine Programmiersprache?
 * Was ist ein HTML-Attribut und wie sieht dessen Schreibweise aus?
 * Was ist CSS und zu welchem spezifischen Einsatzzweck verwenden 
   Sie es?
