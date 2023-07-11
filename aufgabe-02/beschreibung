@@ -5,7 +5,7 @@ Ergänzen Sie das Ergebnis von Aufgabe 1 um diese Elemente:
 * Beschreibung zur Seite "Übersicht zu den Veranstaltungen"
 * Angabe des Zeichensatzes/Encodings Unicode/UTF-8
 
-Lösung: 
+=== Lösung ===
 
 ----
 <HTML lang="de">
@@ -20,3 +20,6 @@ Lösung:
 </HTML>
 ----
 
+=== Zielstellung und Wissenserwerb ===
+
+* Kennenlernen der verschiedenen Elemente des Kopfes einer HTML-Datei

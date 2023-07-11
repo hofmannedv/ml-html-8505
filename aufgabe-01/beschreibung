@@ -13,7 +13,10 @@ Ergänzen Sie diese Datei um:
 * die Angabe zur Sprache der Seite "Deutsch"
 * den Seitentitel "Veranstaltungsübersicht"
 
-Lösung: 
+Speichern Sie die Daten in der Datei aufgabe-01.html ab. Öffnen Sie 
+die Datei anschließend in ihrem Webbrowser.
+
+=== Lösung ===
 
 ----
 <HTML lang="de">
@@ -26,3 +29,7 @@ Lösung:
 </HTML>
 ----
 
+=== Zielstellung und Wissenserwerb ===
+
+* Kennenlernen des grundlegenden Aufbaus einer HTML-Datei
+* Unterscheidung zwischen HTML-Tag, Text und HTML-Attribut
