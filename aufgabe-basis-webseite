@@ -277,11 +277,13 @@ Die in Aufgabe 7 erstellte Tabelle gibt die Daten bereits aus, ist aber
 noch nicht besonders gut lesbar. Dieser Schritt erfolgt jetzt. Ergänzen
 Sie die Stilangabe im Kopf der HTML-Datei wie folgt:
 
-* ergänzen Sie einen Abstand von 5 Pixel bei allen Seiten der Zellen im 
-  Tabellenkopf und Tabellenkörper
 * richten Sie die Inhalte aller Spalten linksbündig und zur
   Zelloberkante hin aus
 * färben Sie den Hintergrund der Kopfzeile der Tabelle in hellgrau ein
+* färben Sie den Hintergrund des Tabellenkörpers in ganz hellem hellgrau ein
+* fügen Sie zur besseren Lesbarkeit zwischen dem Text und dem Zellenrand 
+  einen Abstand von 0.5rem ein
+* entfernen Sie den Zwischenraum zwischen den Zellen
 
 Lösung mit Beispieldaten:
 
@@ -300,12 +302,16 @@ Lösung mit Beispieldaten:
     table {
       text-align: left;
       vertical-align: top;
+      border-collapse: collapse;
     }
     th, td {
-      padding: 5px;
+      padding: 0.5rem;
     }
     thead {
       background-color: lightgrey;
+    }
+    tbody {
+      background-color: whitesmoke;
     }
   </STYLE>
 </HEAD>
