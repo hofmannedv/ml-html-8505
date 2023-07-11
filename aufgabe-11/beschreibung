@@ -9,7 +9,7 @@ Spalte ein.
 * binden Sie das Bild workshop.png für die erste Veranstaltung ein.
   Ergänzen Sie es in der zweiten Spalte
 
-Lösung mit Beispieldaten:
+=== Lösung mit Beispieldaten ===
 
 aufgabe-11.html
 ----
@@ -99,3 +99,7 @@ stilvorlage.css
     }
 ----
 
+=== Zielstellung und Wissenserwerb ===
+
+* Kennenlernen der unterstützten Dateiformate für Bilder
+* Einbinden eines Bildes im PNG-Format aus einer externen Datei
