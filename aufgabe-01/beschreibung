@@ -1,0 +1,28 @@
+== Aufgabe 1: Grundlegende HTML-Datei ==
+
+Vorhanden ist diese HTML-Datei:
+
+----
+<HTML>
+<P>Übersicht zu den Veranstaltungen</P>
+</HTML>
+----
+
+Ergänzen Sie diese Datei um:
+
+* die Angabe zur Sprache der Seite "Deutsch"
+* den Seitentitel "Veranstaltungsübersicht"
+
+Lösung: 
+
+----
+<HTML lang="de">
+<HEAD>
+  <TITLE>Veranstaltungsübersicht</TITLE>
+</HEAD>
+<BODY>
+  <P>Übersicht zu den Veranstaltungen</P>
+</BODY>
+</HTML>
+----
+
