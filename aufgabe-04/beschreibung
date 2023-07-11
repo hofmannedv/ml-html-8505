@@ -8,7 +8,7 @@ Strukturieren Sie die Webseite in
 * eine Fußzeile, bestehend aus einer horizontalen Linie am oberen Rand 
   der Fußzeile und einem rechtsbündig angeordneten Text "(C) KIT"
 
-Lösung: 
+=== Lösung ===
 
 ----
 <HTML lang="de">
@@ -38,3 +38,9 @@ Lösung:
 </BODY>
 </HTML>
 ----
+
+=== Zielstellung und Wissenserwerb ===
+
+* Kennenlernen der Strukturierung einer Webseite und Unterteilung in
+  einzelne Bereiche
+* Ergänzung um HTML-Tags für Absätze und Linien
