@@ -158,4 +158,42 @@ Lösung:
 </HTML>
 ----
 
+== Aufgabe 6: Überschrift verschönern ==
+
+Die Lesbarkeit der Überschrift muss erhöht werden. Der Abstand zwischen
+der Überschrift und dem Rand der umschließenden Box ist zu knapp.
+Vergrößern Sie diesen um 1rem.
+
+Lösung:
+
+----
+<HTML lang="de">
+<HEAD>
+  <TITLE>Veranstaltungsübersicht</TITLE>
+  <META name="description" content="Übersicht zu den Veranstaltungen">
+  <META charset="utf8">
+  <STYLE>
+    h1 {
+      background-color: #00008B;
+      color: white;
+      padding: 1rem;
+    }
+  </STYLE>
+</HEAD>
+<BODY>
+  <HEADER>
+    1. Juli 2023
+    <HR>
+  </HEADER>
+  <MAIN>
+    <H1>Übersicht zu den Veranstaltungen</H1>
+  </MAIN>
+  <FOOTER>
+    <HR>
+    <DIV align="right">&copy; KIT</DIV>
+  </FOOTER>
+</BODY>
+</HTML>
+----
+
 
