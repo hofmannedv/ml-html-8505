@@ -11,7 +11,7 @@ folgenden Spalten:
 Benutzen Sie HTML-Tags, die die Tabelle sauber in Kopf und Körper
 (Header und Body) strukturieren.
 
-Lösung mit Beispieldaten:
+=== Lösung mit Beispieldaten ===
 
 ----
 <HTML lang="de">
@@ -72,4 +72,9 @@ Lösung mit Beispieldaten:
 </BODY>
 </HTML>
 ----
+
+=== Zielstellung und Wissenserwerb ===
+
+* erweiterte Strukturierung der Seiteninhalte durch Tags für Tabellen
+* Kennenlernen der HTML-Tags <TABLE>, <THEAD>, <TBODY>, <TH>, <TD> und <TR>
 
