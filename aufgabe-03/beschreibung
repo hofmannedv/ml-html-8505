@@ -6,7 +6,7 @@ Ergänzen Sie die Lösung von Aufgabe 3 um:
   - mit Seitenhintergrund: weiß
   - und Textfarbe für Absätze: schwarz
 
-Lösung: 
+=== Lösung === 
 
 ----
 <HTML lang="de">
@@ -27,3 +27,7 @@ Lösung:
 </HTML>
 ----
 
+=== Zielstellung und Wissenserwerb ===
+
+* Kennenlernen und Verständnis zur Interpretation von Stilvorlagen
+* erstellen einer einfachen Stilvorlage für den Seitenhintergrund
