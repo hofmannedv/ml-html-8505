@@ -4,7 +4,7 @@ Die Lesbarkeit der Überschrift muss erhöht werden. Der Abstand zwischen
 der Überschrift und dem Rand der umschließenden Box ist zu knapp.
 Vergrößern Sie diesen um 1rem.
 
-Lösung:
+=== Lösung ===
 
 ----
 <HTML lang="de">
@@ -35,4 +35,8 @@ Lösung:
 </BODY>
 </HTML>
 ----
+
+=== Zielstellung und Wissenserwerb ===
+
+* Erweiterung der Stilvorlage um Abstandsangaben
 
