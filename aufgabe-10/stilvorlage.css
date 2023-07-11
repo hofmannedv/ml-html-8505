@@ -1,0 +1,24 @@
+    h1 {
+      background-color: #00008B;
+      color: white;
+      padding: 1rem;
+    }
+    table {
+      width: 100%;
+      text-align: left;
+      vertical-align: top;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 0.5rem;
+    }
+    thead {
+      background-color: lightgrey;
+    }
+    tbody {
+      background-color: whitesmoke;
+    }
+    tr:nth-child(even) {
+      background-color: #e0e0e0;
+    }
+
