@@ -7,7 +7,7 @@ Ergänzen Sie die Stilvorlage so, dass
   (Farbcode #00008B)
 * der Text der Überschrift in weiss erscheint (Farbcode #FFF)
 
-Lösung:
+=== Lösung ===
 
 ----
 <HTML lang="de">
@@ -38,3 +38,7 @@ Lösung:
 </HTML>
 ----
 
+=== Zielstellung und Wissenserwerb ===
+
+* erweiterte Strukturierung der Seiteninhalte durch Tags für Überschriften
+* anpassen der internen Stilvorlage
