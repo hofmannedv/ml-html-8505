@@ -3,7 +3,7 @@
 Mit einer Angabe zur Breite ändern Sie die Größe des Bildes. Zudem fügen
 Sie ein alt-Attribut hinzu.
 
-Lösung mit Beispieldaten:
+=== Lösung mit Beispieldaten ===
 
 aufgabe-12.html
 ----
@@ -93,3 +93,7 @@ stilvorlage.css
     }
 ----
 
+=== Zielstellung und Wissenserwerb ===
+
+* Kennenlernen der Größenangaben zur Darstellung eines Bildes
+* Ergänzung um das alt-Attribut
