@@ -1,0 +1,40 @@
+== Zugehörigkeit ==
+
+Kapitel 5 
+
+== Aufgabe 5c: CSS und Farbangaben
+
+Ordnen Sie die folgenden Farbangaben den Textwerten zu und benennen Sie
+falsche Angaben:
+
+#FFF
+#red
+orange
+white
+#FFA500
+#HC45
+pink
+
+=== Lösung === 
+
+Zuordnung und korrekte Werte:
+* #FFF - white
+* #FFA500 - orange
+* pink
+
+falsche Angaben:
+* #red
+* #HC45
+
+Link für weitere Angaben zu Farben
+https://htmlcolorcodes.com/color-names/
+
+=== Lernziele ===
+
+Sie erlernen, welche Farbmodelle und Farbangaben CSS unterstützt.
+
+=== Fragen zur Lerneinheit ===
+
+* Welche Farbmodelle unterstützt CSS?
+* Wie geben Sie eine Farbe an, wenn Sie ein HTML-Element einfärben?
+
