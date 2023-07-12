@@ -2,7 +2,7 @@
 
 Kapitel 5 und 6
 
-== Aufgabe 5: Ergänzung um interne CSS-Stilvorlage ==
+== Aufgabe 5d: Ergänzung um interne CSS-Stilvorlage ==
 
 Ergänzen Sie die Lösung von Aufgabe 4 um:
 
@@ -13,11 +13,9 @@ Ergänzen Sie die Lösung von Aufgabe 4 um:
 === Lösung === 
 
 ----
+<!doctype html>
 <HTML lang="de">
 <HEAD>
-  <TITLE>Veranstaltungsübersicht</TITLE>
-  <META name="description" content="Übersicht zu den Veranstaltungen">
-  <META charset="utf8">
   <STYLE>
     p {
       background-color: white;
@@ -33,5 +31,14 @@ Ergänzen Sie die Lösung von Aufgabe 4 um:
 
 === Lernziele ===
 
-* Kennenlernen und Verständnis zur Interpretation von Stilvorlagen
-* erstellen einer einfachen Stilvorlage für den Seitenhintergrund
+Hier erlernen Sie das Verständnis zur Interpretation von Stilvorlagen.
+Sie erstellen eine einfache Stilvorlage für den Seitenhintergrund und
+binden diese Stilvorlage direkt in der HTML-Datei ein.
+
+=== Fragen zur Lerneinheit ===
+
+* Was müssen Sie bei der Einbindung der Stilvorlage beachten?
+* Angenommen, Sie erstellen mehrere HTML-Dateien, die die gleiche
+  Stilvorlage benutzen sollen. Wie gehen Sie mit Änderungen der
+  Stilvorlage um?
+
