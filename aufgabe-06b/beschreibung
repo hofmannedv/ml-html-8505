@@ -1,0 +1,36 @@
+== Zugehörigkeit ==
+
+Kapitel 6
+
+== Aufgabe 6b: Beziehungen zu anderen Dokumenten ==
+
+Die Beziehungen zu anderen Dokumenten stellen Sie über Verweise dar.
+Binden Sie die Stilvorlage stilvorlage.css in die HTML-Datei aus Aufgabe
+6a ein.
+
+=== Lösung ===
+
+----
+<!doctype html>
+<HTML lang="de">
+<HEAD>
+  <TITLE>Veranstaltungsübersicht</TITLE>
+  <LINK href="stilvorlage.css" rel="stylesheet">
+</HEAD>
+<BODY>
+  <P>Übersicht zu den Veranstaltungen</P>
+</BODY>
+</HTML>
+----
+
+=== Lernziele ===
+
+Sie erlernen, wie Sie eine externe Stilvorlage in eine HTML-Datei
+einbinden.
+
+=== Fragen zur Lerneinheit ===
+
+* Was passiert, wenn die referenzierte Stilvorlage nicht gelesen werden
+  kann?
+* Wieviele Stilvorlagen dürfen im Kopf der HTML-Datei aufgeführt sein?
+
