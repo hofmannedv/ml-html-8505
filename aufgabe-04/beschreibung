@@ -2,7 +2,7 @@
 
 Kapitel 4 oder 6
 
-== Aufgabe 2: Erweiterung um Angaben im HTML-Header ==
+== Aufgabe 4: Erweiterung um Angaben im HTML-Header ==
 
 Ergänzen Sie das Ergebnis von Aufgabe 1 um diese Elemente:
 
@@ -35,5 +35,5 @@ verwendeten Zeichensatz.
 * Warum benötigt eine HTML-Datei eine Titelangabe?
 * Wo wird diese Titelangabe angezeigt?
 * Welchen Nutzen hat die Beschreibung einer HTML-Datei?
-* Kann der Webbrowser die HTML-Datei auch anzeigen, wenn der Zeichensatz
+* Wie zeigt der Webbrowser die HTML-Datei an, wenn der Zeichensatz
   nicht im Header der HTML-Datei angegeben ist?
