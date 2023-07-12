@@ -1,0 +1,9 @@
+body { 
+  background-color: whitesmoke; 
+  color: black;
+}
+.warnung {
+  background-color: yellow;
+  color: black;
+  border-color: red;
+}

@@ -4,18 +4,34 @@ Kapitel 5
 
 == Aufgabe 5: CSS3 richtig anwenden ===
 
-ToDo
+Erstellen Sie eine Stilvorlage, die das folgende leistet:
+
+* Seiteninhalt: hellgrau
+* Textfarbe: schwarz
+* Klasse "warnung" mit gelbem Hintergrund, rotem Rand und
+  schwarzer Schrift
 
 === Lösung === 
 
 ----
-ToDo
+body { 
+  background-color: whitesmoke; 
+  color: black;
+}
+.warnung {
+  background-color: yellow;
+  color: black;
+  border-color: red;
+}
 ----
 
 === Lernziele ===
 
-ToDo
+Sie erlernen, wie Sie sowohl einzelne Elemente einfärben, als auch
+CSS-Klassen mit einer Auswahl von Eigenschaften erstellen.
 
 === Fragen zur Lerneinheit ===
 
-ToDo
+* Wie wenden Sie eine CSS-Klasse auf die Gestaltung einer oder 
+  mehrerer HTML-Elemente an? 
+
