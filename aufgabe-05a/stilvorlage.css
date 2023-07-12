@@ -1,0 +1,6 @@
+p { background-colour: red }
+h1 {
+  color: black;
+  font-family: sans-serif;
+  border-with: 5 px;
+}

@@ -1,0 +1,41 @@
+== Zugehörigkeit ==
+
+Kapitel 5 
+
+== Aufgabe 5a: Aufbau der CSS-Regel ==
+
+Folgende CSS-Stilvorlage ist gegeben:
+
+----
+p { background-colour: red }
+h1 {
+  color: black;
+  font-family: sans-serif;
+  border-with: 5 px;
+}
+----
+
+Prüfen Sie die Stilvorlage und korrigieren Sie diese sofern
+das erforderlich ist.
+
+=== Lösung === 
+
+----
+p { background-color: red; }
+h1 {
+  color: black;
+  font-family: sans-serif;
+  border-width: 5px;
+}
+----
+
+=== Lernziele ===
+
+Sie erlernen, wie Sie in der Stilvorlage HTML-Tags auszeichnen, sprich:
+deren Eigenschaften zur Darstellung anpassen.
+
+=== Fragen zum Verständnis ===
+
+* Aus welchen Komponenten besteht eine Stilangabe?
+* Wie kommentieren Sie eine Stilangabe aus?
+
