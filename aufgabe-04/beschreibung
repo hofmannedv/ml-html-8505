@@ -6,12 +6,14 @@ Kapitel 4
 
 Ergänzen Sie das Ergebnis von Aufgabe 1 um diese Elemente:
 
+* den Dokumententyp html
 * <HEAD> für den Kopf der HTML-Datei
 * <BODY> für den Körper ("Inhalt") der HTML-Datei
 
 === Lösung ===
 
 ----
+<!doctype html>
 <HTML lang="de">
 <HEAD></HEAD>
 <BODY>
@@ -26,4 +28,5 @@ Sie lernen die Basiselemente einer HTML-Datei kennen.
 
 === Fragen zur Lerneinheit ===
 
+* Welche weiteren Dokumenttypen bzgl. der Angabe doctype kennen Sie?
 * Warum erfolgt eine Unterteilung der HTML-Datei in Kopf und Körper?
