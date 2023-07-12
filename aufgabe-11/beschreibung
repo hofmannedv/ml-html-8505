@@ -1,83 +1,24 @@
 == Zugehörigkeit ==
 
-Kapitel 7
+Kapitel 5 und 7
 
-== Aufgabe 11: Bild einbinden ==
+== Aufgabe 9: Verschönern Sie die Tabelle (Teil 2) ==
 
-Zur besseren Kennzeichnung werden Workshops mit dem WS-Symbol
-hervorgehoben. Dazu binden Sie ein passendes Bild in der entsprechenden
-Spalte ein. 
+Zur Erhöhung der Lesbarkeit heben Sie die Zeilen der Tabelle voneinander
+ab. Ergänzen Sie die Stilangabe im Kopf der HTML-Datei wie folgt:
 
-* ergänzen Sie die Tabelle um eine weitere Spalte zwischen Zeitraum und
-  Thema
-* binden Sie das Bild workshop.png für die erste Veranstaltung ein.
-  Ergänzen Sie es in der zweiten Spalte
+* färben Sie jede gerade Zeile der Tabelle in einem dunkleren grau ein
+* vergrößern Sie die Darstellung der Tabelle auf die gesamte Seitenbreite
 
 === Lösung mit Beispieldaten ===
 
-aufgabe-11.html
 ----
 <HTML lang="de">
 <HEAD>
   <TITLE>Veranstaltungsübersicht</TITLE>
   <META name="description" content="Übersicht zu den Veranstaltungen">
   <META charset="utf8">
-  <LINK href="stilvorlage.css" rel="stylesheet">
-</HEAD>
-<BODY>
-  <HEADER>
-    1. Juli 2023
-    <HR>
-  </HEADER>
-  <MAIN>
-    <H1>Übersicht zu den Veranstaltungen</H1>
-    <TABLE>
-      <THEAD>
-        <TR>
-          <TH>Zeitraum</TH>
-          <TH></TH>
-          <TH>Thema</TH>
-          <TH>Sprecher</TH>
-          <TH>Raum</TH>
-        </TR>
-      </THEAD>
-      <TBODY>
-        <TR>
-          <TD>9:00-10:30</TD>
-          <TD>
-            <IMG src="workshop.png">
-          </TD>
-          <TD>Workshop: Grundlagen der Linux-Kommandozeile</TD>
-          <TD>Robert F. Link</TD>
-          <TD>105</TD>
-        </TR>
-        <TR>
-          <TD>10:45-12:00</TD>
-          <TD></TD>
-          <TD>Sichere Kommunkation mit ssh</TD>
-          <TD>S. Uperschlau</TD>
-          <TD>107</TD>
-        </TR>
-        <TR>
-          <TD>10:45-12:00</TD>
-          <TD></TD>
-          <TD>Tips und Tricks für die Datenverwaltung</TD>
-          <TD>Robert F. Link</TD>
-          <TD>105</TD>
-        </TR>
-      </TBODY>
-    </TABLE>
-  </MAIN>
-  <FOOTER>
-    <HR>
-    <DIV align="right">&copy; KIT</DIV>
-  </FOOTER>
-</BODY>
-</HTML>
-----
-
-stilvorlage.css
-----
+  <STYLE>
     h1 {
       background-color: #00008B;
       color: white;
@@ -101,9 +42,55 @@ stilvorlage.css
     tr:nth-child(even) {
       background-color: #e0e0e0;
     }
+  </STYLE>
+</HEAD>
+<BODY>
+  <HEADER>
+    1. Juli 2023
+    <HR>
+  </HEADER>
+  <MAIN>
+    <H1>Übersicht zu den Veranstaltungen</H1>
+    <TABLE>
+      <THEAD>
+        <TR>
+          <TH>Zeitraum</TH>
+          <TH>Thema</TH>
+          <TH>Sprecher</TH>
+          <TH>Raum</TH>
+        </TR>
+      </THEAD>
+      <TBODY>
+        <TR>
+          <TD>9:00-10:30</TD>
+          <TD>Workshop: Grundlagen der Linux-Kommandozeile</TD>
+          <TD>Robert F. Link</TD>
+          <TD>105</TD>
+        </TR>
+        <TR>
+          <TD>10:45-12:00</TD>
+          <TD>Sichere Kommunkation mit ssh</TD>
+          <TD>S. Uperschlau</TD>
+          <TD>107</TD>
+        </TR>
+        <TR>
+          <TD>10:45-12:00</TD>
+          <TD>Tips und Tricks für die Datenverwaltung</TD>
+          <TD>Robert F. Link</TD>
+          <TD>105</TD>
+        </TR>
+      </TBODY>
+    </TABLE>
+  </MAIN>
+  <FOOTER>
+    <HR>
+    <DIV align="right">&copy; KIT</DIV>
+  </FOOTER>
+</BODY>
+</HTML>
 ----
 
 === Lernziele ===
 
-* Kennenlernen der unterstützten Dateiformate für Bilder
-* Einbinden eines Bildes im PNG-Format aus einer externen Datei
+* anpassen der internen Stilvorlage zur Erhöhung der Lesbarkeit 
+  der Darstellung

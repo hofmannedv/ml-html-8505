@@ -1,23 +1,50 @@
 == Zugehörigkeit ==
 
-Kapitel 7
+Kapitel 5 und 7
 
-== Aufgabe 10: CSS separieren ==
+== Aufgabe 8: Verschönern Sie die Tabelle (Teil 1) ==
 
-Bislang stehen die Stilangaben direkt im Kopf der HTML-Datei. Separieren
-Sie nun beide Inhalte voneinander, speichern die Stilangaben in der
-Datei stilvorlage.css ab und binden diese im Kopf der HTML-Datei ein.
+Die in Aufgabe 7 erstellte Tabelle gibt die Daten bereits aus, ist aber
+noch nicht besonders gut lesbar. Dieser Schritt erfolgt jetzt. Ergänzen
+Sie die Stilangabe im Kopf der HTML-Datei wie folgt:
+
+* richten Sie die Inhalte aller Spalten linksbündig und zur
+  Zelloberkante hin aus
+* färben Sie den Hintergrund der Kopfzeile der Tabelle in hellgrau ein
+* färben Sie den Hintergrund des Tabellenkörpers in ganz hellem hellgrau ein
+* fügen Sie zur besseren Lesbarkeit zwischen dem Text und dem Zellenrand 
+  einen Abstand von 0.5rem ein
+* entfernen Sie den Zwischenraum zwischen den Zellen
 
 === Lösung mit Beispieldaten ===
 
-aufgabe-10.html
 ----
 <HTML lang="de">
 <HEAD>
   <TITLE>Veranstaltungsübersicht</TITLE>
   <META name="description" content="Übersicht zu den Veranstaltungen">
   <META charset="utf8">
-  <LINK href="stilvorlage.css" rel="stylesheet">
+  <STYLE>
+    h1 {
+      background-color: #00008B;
+      color: white;
+      padding: 1rem;
+    }
+    table {
+      text-align: left;
+      vertical-align: top;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 0.5rem;
+    }
+    thead {
+      background-color: lightgrey;
+    }
+    tbody {
+      background-color: whitesmoke;
+    }
+  </STYLE>
 </HEAD>
 <BODY>
   <HEADER>
@@ -65,34 +92,7 @@ aufgabe-10.html
 </HTML>
 ----
 
-stilvorlage.css
-----
-    h1 {
-      background-color: #00008B;
-      color: white;
-      padding: 1rem;
-    }
-    table {
-      width: 100%;
-      text-align: left;
-      vertical-align: top;
-      border-collapse: collapse;
-    }
-    th, td {
-      padding: 0.5rem;
-    }
-    thead {
-      background-color: lightgrey;
-    }
-    tbody {
-      background-color: whitesmoke;
-    }
-    tr:nth-child(even) {
-      background-color: #e0e0e0;
-    }
-----
-
 === Lernziele ===
 
-* Separierung von Inhalt und Aussehen
-* Einbindung der Stilvorlage aus einer externen Datei
+* anpassen der internen Stilvorlage
+* Kennenlernen der Attribute zur Darstellung der Tabelle

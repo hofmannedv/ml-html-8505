@@ -1,12 +1,16 @@
 == Zugehörigkeit ==
 
-Kapitel 5 und 7
+Kapitel 7
 
-== Aufgabe 6: Überschrift verschönern ==
+== Aufgabe 4: Struktur der HTML-Seite ==
 
-Die Lesbarkeit der Überschrift muss erhöht werden. Der Abstand zwischen
-der Überschrift und dem Rand der umschließenden Box ist zu knapp.
-Vergrößern Sie diesen um 1rem.
+Strukturieren Sie die Webseite in
+
+* eine Kopfzeile, bestehend aus dem heutigen Datum (links angeordnet)
+  und einer horizontalen Linie am unteren Rand der Kopfzeile
+* eine Angabe zum Hauptteil
+* eine Fußzeile, bestehend aus einer horizontalen Linie am oberen Rand 
+  der Fußzeile und einem rechtsbündig angeordneten Text "(C) KIT"
 
 === Lösung ===
 
@@ -17,10 +21,9 @@ Vergrößern Sie diesen um 1rem.
   <META name="description" content="Übersicht zu den Veranstaltungen">
   <META charset="utf8">
   <STYLE>
-    h1 {
-      background-color: #00008B;
-      color: white;
-      padding: 1rem;
+    p {
+      background-color: white;
+      color: black;
     }
   </STYLE>
 </HEAD>
@@ -30,7 +33,7 @@ Vergrößern Sie diesen um 1rem.
     <HR>
   </HEADER>
   <MAIN>
-    <H1>Übersicht zu den Veranstaltungen</H1>
+    <P>Übersicht zu den Veranstaltungen</P>
   </MAIN>
   <FOOTER>
     <HR>
@@ -42,5 +45,6 @@ Vergrößern Sie diesen um 1rem.
 
 === Lernziele ===
 
-* Erweiterung der Stilvorlage um Abstandsangaben
-
+* Kennenlernen der Strukturierung einer Webseite und Unterteilung in
+  einzelne Bereiche
+* Ergänzung um HTML-Tags für Absätze und Linien

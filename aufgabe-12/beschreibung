@@ -2,14 +2,15 @@
 
 Kapitel 7
 
-== Aufgabe 12: Bilddarstellung anpassen ==
+== Aufgabe 10: CSS separieren ==
 
-Mit einer Angabe zur Breite ändern Sie die Größe des Bildes. Zudem fügen
-Sie ein alt-Attribut hinzu.
+Bislang stehen die Stilangaben direkt im Kopf der HTML-Datei. Separieren
+Sie nun beide Inhalte voneinander, speichern die Stilangaben in der
+Datei stilvorlage.css ab und binden diese im Kopf der HTML-Datei ein.
 
 === Lösung mit Beispieldaten ===
 
-aufgabe-12.html
+aufgabe-10.html
 ----
 <HTML lang="de">
 <HEAD>
@@ -29,7 +30,6 @@ aufgabe-12.html
       <THEAD>
         <TR>
           <TH>Zeitraum</TH>
-          <TH></TH>
           <TH>Thema</TH>
           <TH>Sprecher</TH>
           <TH>Raum</TH>
@@ -38,23 +38,18 @@ aufgabe-12.html
       <TBODY>
         <TR>
           <TD>9:00-10:30</TD>
-          <TD>
-            <IMG src="workshop.png" width="40px" alt="Kennzeichnung als Workshop">
-          </TD>
           <TD>Workshop: Grundlagen der Linux-Kommandozeile</TD>
           <TD>Robert F. Link</TD>
           <TD>105</TD>
         </TR>
         <TR>
           <TD>10:45-12:00</TD>
-          <TD></TD>
           <TD>Sichere Kommunkation mit ssh</TD>
           <TD>S. Uperschlau</TD>
           <TD>107</TD>
         </TR>
         <TR>
           <TD>10:45-12:00</TD>
-          <TD></TD>
           <TD>Tips und Tricks für die Datenverwaltung</TD>
           <TD>Robert F. Link</TD>
           <TD>105</TD>
@@ -99,5 +94,5 @@ stilvorlage.css
 
 === Lernziele ===
 
-* Kennenlernen der Größenangaben zur Darstellung eines Bildes
-* Ergänzung um das alt-Attribut
+* Separierung von Inhalt und Aussehen
+* Einbindung der Stilvorlage aus einer externen Datei

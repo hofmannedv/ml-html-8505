@@ -1,39 +1,19 @@
-== Zugehörigkeit ==
+=== Zugehörigkeit ===
 
-Kapitel 4 oder 6
-
-== Aufgabe 2: Erweiterung um Angaben im HTML-Header ==
-
-Ergänzen Sie das Ergebnis von Aufgabe 1 um diese Elemente:
-
-* Beschreibung zur Seite "Übersicht zu den Veranstaltungen"
-* Angabe des Zeichensatzes/Encodings Unicode/UTF-8
-
-=== Lösung ===
-
-----
-<HTML lang="de">
-<HEAD>
-  <TITLE>Veranstaltungsübersicht</TITLE>
-  <META name="description" content="Übersicht zu den Veranstaltungen">
-  <META charset="utf8">
-</HEAD>
-<BODY>
-  <P>Übersicht zu den Veranstaltungen</P>
-</BODY>
-</HTML>
-----
+Kapitel 2 
 
 === Lernziele ===
 
-Sie lernen verschiedene Elemente des Kopfes einer HTML-Datei kennen und
-setzen den angezeigten Titel der Datei, die Beschreibung und den
-verwendeten Zeichensatz.
+Sie erhalten einen Überblick zu verschiedenen Werkzeugen, mit denen Sie
+HTML- und CSS-Dateien bearbeiten, validieren und anzeigen können. Dazu 
+zählen Texteditoren und Entwicklungsumgebungen unterschiedlicher 
+Komplexität.
 
-=== Fragen zum Verständnis ===
+=== Fragen zur Lerneinheit ===
 
-* Warum benötigt eine HTML-Datei eine Titelangabe?
-* Wo wird diese Titelangabe angezeigt?
-* Welchen Nutzen hat die Beschreibung einer HTML-Datei?
-* Kann der Webbrowser die HTML-Datei auch anzeigen, wenn der Zeichensatz
-  nicht im Header der HTML-Datei angegeben ist?
+* Mit welchem Werkzeug bearbeiten Sie eine HTML-Datei?
+* Womit prüfen Sie eine HTML- und CSS-Datei auf syntaktische Korrektheit?
+* Benennen Sie zwei Hilfsmittel, die Ihnen zusätzliche Informationen zu
+  HTML- und CSS-Angaben liefern.
+* Welche Wege kennen Sie, um zu überprüfen, wie HTML und CSS auf ihrem
+  Ausgabegerät dargestellt werden?

@@ -1,17 +1,16 @@
 == Zugehörigkeit ==
 
-Kapitel 7
+Kapitel 6
 
-== Aufgabe 5: Seitenüberschrift ==
+== Aufgabe 3: Ergänzung um interne CSS-Stilvorlage ==
 
-Wandeln Sie den Absatz in eine Überschrift der Klasse H1 um.
-Ergänzen Sie die Stilvorlage so, dass
+Ergänzen Sie die Lösung von Aufgabe 3 um:
 
-* der Hintergrund der Überschrift in dunkelblau dargestellt wird
-  (Farbcode #00008B)
-* der Text der Überschrift in weiss erscheint (Farbcode #FFF)
+* eine Angabe einer internen Stilvorlage 
+  - mit Seitenhintergrund: weiß
+  - und Textfarbe für Absätze: schwarz
 
-=== Lösung ===
+=== Lösung === 
 
 ----
 <HTML lang="de">
@@ -20,29 +19,19 @@ Ergänzen Sie die Stilvorlage so, dass
   <META name="description" content="Übersicht zu den Veranstaltungen">
   <META charset="utf8">
   <STYLE>
-    h1 {
-      background-color: #00008B;
-      color: white;
+    p {
+      background-color: white;
+      color: black;
     }
   </STYLE>
 </HEAD>
 <BODY>
-  <HEADER>
-    1. Juli 2023
-    <HR>
-  </HEADER>
-  <MAIN>
-    <H1>Übersicht zu den Veranstaltungen</H1>
-  </MAIN>
-  <FOOTER>
-    <HR>
-    <DIV align="right">&copy; KIT</DIV>
-  </FOOTER>
+  <P>Übersicht zu den Veranstaltungen</P>
 </BODY>
 </HTML>
 ----
 
 === Lernziele ===
 
-* erweiterte Strukturierung der Seiteninhalte durch Tags für Überschriften
-* anpassen der internen Stilvorlage
+* Kennenlernen und Verständnis zur Interpretation von Stilvorlagen
+* erstellen einer einfachen Stilvorlage für den Seitenhintergrund

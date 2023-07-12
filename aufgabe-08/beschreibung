@@ -2,21 +2,13 @@
 
 Kapitel 5 und 7
 
-== Aufgabe 8: Verschönern Sie die Tabelle (Teil 1) ==
+== Aufgabe 6: Überschrift verschönern ==
 
-Die in Aufgabe 7 erstellte Tabelle gibt die Daten bereits aus, ist aber
-noch nicht besonders gut lesbar. Dieser Schritt erfolgt jetzt. Ergänzen
-Sie die Stilangabe im Kopf der HTML-Datei wie folgt:
+Die Lesbarkeit der Überschrift muss erhöht werden. Der Abstand zwischen
+der Überschrift und dem Rand der umschließenden Box ist zu knapp.
+Vergrößern Sie diesen um 1rem.
 
-* richten Sie die Inhalte aller Spalten linksbündig und zur
-  Zelloberkante hin aus
-* färben Sie den Hintergrund der Kopfzeile der Tabelle in hellgrau ein
-* färben Sie den Hintergrund des Tabellenkörpers in ganz hellem hellgrau ein
-* fügen Sie zur besseren Lesbarkeit zwischen dem Text und dem Zellenrand 
-  einen Abstand von 0.5rem ein
-* entfernen Sie den Zwischenraum zwischen den Zellen
-
-=== Lösung mit Beispieldaten ===
+=== Lösung ===
 
 ----
 <HTML lang="de">
@@ -30,20 +22,6 @@ Sie die Stilangabe im Kopf der HTML-Datei wie folgt:
       color: white;
       padding: 1rem;
     }
-    table {
-      text-align: left;
-      vertical-align: top;
-      border-collapse: collapse;
-    }
-    th, td {
-      padding: 0.5rem;
-    }
-    thead {
-      background-color: lightgrey;
-    }
-    tbody {
-      background-color: whitesmoke;
-    }
   </STYLE>
 </HEAD>
 <BODY>
@@ -53,36 +31,6 @@ Sie die Stilangabe im Kopf der HTML-Datei wie folgt:
   </HEADER>
   <MAIN>
     <H1>Übersicht zu den Veranstaltungen</H1>
-    <TABLE>
-      <THEAD>
-        <TR>
-          <TH>Zeitraum</TH>
-          <TH>Thema</TH>
-          <TH>Sprecher</TH>
-          <TH>Raum</TH>
-        </TR>
-      </THEAD>
-      <TBODY>
-        <TR>
-          <TD>9:00-10:30</TD>
-          <TD>Workshop: Grundlagen der Linux-Kommandozeile</TD>
-          <TD>Robert F. Link</TD>
-          <TD>105</TD>
-        </TR>
-        <TR>
-          <TD>10:45-12:00</TD>
-          <TD>Sichere Kommunkation mit ssh</TD>
-          <TD>S. Uperschlau</TD>
-          <TD>107</TD>
-        </TR>
-        <TR>
-          <TD>10:45-12:00</TD>
-          <TD>Tips und Tricks für die Datenverwaltung</TD>
-          <TD>Robert F. Link</TD>
-          <TD>105</TD>
-        </TR>
-      </TBODY>
-    </TABLE>
   </MAIN>
   <FOOTER>
     <HR>
@@ -94,5 +42,5 @@ Sie die Stilangabe im Kopf der HTML-Datei wie folgt:
 
 === Lernziele ===
 
-* anpassen der internen Stilvorlage
-* Kennenlernen der Attribute zur Darstellung der Tabelle
+* Erweiterung der Stilvorlage um Abstandsangaben
+

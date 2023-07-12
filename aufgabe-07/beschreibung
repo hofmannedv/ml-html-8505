@@ -2,20 +2,16 @@
 
 Kapitel 7
 
-== Aufgabe 7: Tabelle mit den Veranstaltungen einfügen ==
+== Aufgabe 5: Seitenüberschrift ==
 
-Ergänzen Sie die Veranstaltungsübersicht um eine Tabelle mit den
-folgenden Spalten:
+Wandeln Sie den Absatz in eine Überschrift der Klasse H1 um.
+Ergänzen Sie die Stilvorlage so, dass
 
-* Zeitspanne (Beginn und Ende der Veranstaltung)
-* Thema der Veranstaltung
-* Sprecher oder Veranstalter 
-* Raum, in dem die Veranstaltung stattfindet
+* der Hintergrund der Überschrift in dunkelblau dargestellt wird
+  (Farbcode #00008B)
+* der Text der Überschrift in weiss erscheint (Farbcode #FFF)
 
-Benutzen Sie HTML-Tags, die die Tabelle sauber in Kopf und Körper
-(Header und Body) strukturieren.
-
-=== Lösung mit Beispieldaten ===
+=== Lösung ===
 
 ----
 <HTML lang="de">
@@ -27,7 +23,6 @@ Benutzen Sie HTML-Tags, die die Tabelle sauber in Kopf und Körper
     h1 {
       background-color: #00008B;
       color: white;
-      padding: 1rem;
     }
   </STYLE>
 </HEAD>
@@ -38,36 +33,6 @@ Benutzen Sie HTML-Tags, die die Tabelle sauber in Kopf und Körper
   </HEADER>
   <MAIN>
     <H1>Übersicht zu den Veranstaltungen</H1>
-    <TABLE>
-      <THEAD>
-        <TR>
-          <TH>Zeitraum</TH>
-          <TH>Thema</TH>
-          <TH>Sprecher</TH>
-          <TH>Raum</TH>
-        </TR>
-      </THEAD>
-      <TBODY>
-        <TR>
-          <TD>9:00-10:30</TD>
-          <TD>Workshop: Grundlagen der Linux-Kommandozeile</TD>
-          <TD>Robert F. Link</TD>
-          <TD>105</TD>
-        </TR>
-        <TR>
-          <TD>10:45-12:00</TD>
-          <TD>Sichere Kommunkation mit ssh</TD>
-          <TD>S. Uperschlau</TD>
-          <TD>107</TD>
-        </TR>
-        <TR>
-          <TD>10:45-12:00</TD>
-          <TD>Tips und Tricks für die Datenverwaltung</TD>
-          <TD>Robert F. Link</TD>
-          <TD>105</TD>
-        </TR>
-      </TBODY>
-    </TABLE>
   </MAIN>
   <FOOTER>
     <HR>
@@ -79,6 +44,5 @@ Benutzen Sie HTML-Tags, die die Tabelle sauber in Kopf und Körper
 
 === Lernziele ===
 
-* erweiterte Strukturierung der Seiteninhalte durch Tags für Tabellen
-* Kennenlernen der HTML-Tags <TABLE>, <THEAD>, <TBODY>, <TH>, <TD> und <TR>
-
+* erweiterte Strukturierung der Seiteninhalte durch Tags für Überschriften
+* anpassen der internen Stilvorlage
