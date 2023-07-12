@@ -4,46 +4,15 @@ Kapitel 3
 
 === Aufgabe 3 ===
 
-Sie tragen Verantwortung für die Pflege einer Webseite für
-Veranstaltungen in einem Schulungszentrum. Über die Webseite informieren
-sich die Schulungsteilnehmer, in welchem Raum ihr Lehrgang stattfindet. 
-Die bisherige Struktur der Webseite umfasst diese Navigationselemente
-beginnend mit der oberen, linken Ecke:
-
-----
-<NAV>
-  <UL>Veranstaltungen</UL>
-  <UL>Kontakt</UL>
-  <UL>Partner</UL>
-  <UL>Logo des Veranstaltungszentrums</UL>
-</NAV>
-----
-
-Bewerten Sie diese Navigationsstruktur und erarbeiten Sie einen
-Vorschlag zur Korrektur, falls erforderlich.
+* Todo
 
 === Lösung ===
 
-----
-<NAV>
-  <UL>Logo des Veranstaltungszentrums</UL>
-  <UL>Veranstaltungen</UL>
-  <UL>Partner</UL>
-  <UL>Kontakt</UL>
-  <UL>Impressum</UL>
-</NAV>
-----
+* Todo
 
 === Lernziele ===
 
-Sie lernen, wie Sie Webseiten inhaltlich strukturieren und eine
-einheitliche Gestaltung (Corporate Identity) umsetzen.
+Sie lernen, wie Sie den Aufbau einer Webseite zusammenstellen.
 
 === Fragen zur Lerneinheit ===
 
-* Wobei ist eine einheitliche Gestaltung einer Webseite nützlich?
-* Ein Anwender erfragt das Anbringen der Seitennavigation am unteren
-  Seitenrand. Teilen Sie seinen Umsetzungswunsch und wenn ja, warum?
-* Jede Webseite benennt einen inhaltlich Verantwortlichen oder eine
-  Kontaktperson zum Webauftritt. Unter welchem Begriff oder Menüpunkt
-  in der Navigation hinterlegen Sie diese Angabe(n)?
