@@ -1,23 +1,19 @@
 == Zugehörigkeit ==
 
-Kapitel 4 oder 6
+Kapitel 4 
 
-== Aufgabe 4: Erweiterung um Angaben im HTML-Header ==
+== Aufgabe 4: Erweiterung um die HTML-Grundstruktur ==
 
 Ergänzen Sie das Ergebnis von Aufgabe 1 um diese Elemente:
 
-* Beschreibung zur Seite "Übersicht zu den Veranstaltungen"
-* Angabe des Zeichensatzes/Encodings Unicode/UTF-8
+* <HEAD> für den Kopf der HTML-Datei
+* <BODY> für den Körper ("Inhalt") der HTML-Datei
 
 === Lösung ===
 
 ----
 <HTML lang="de">
-<HEAD>
-  <TITLE>Veranstaltungsübersicht</TITLE>
-  <META name="description" content="Übersicht zu den Veranstaltungen">
-  <META charset="utf8">
-</HEAD>
+<HEAD></HEAD>
 <BODY>
   <P>Übersicht zu den Veranstaltungen</P>
 </BODY>
@@ -26,14 +22,8 @@ Ergänzen Sie das Ergebnis von Aufgabe 1 um diese Elemente:
 
 === Lernziele ===
 
-Sie lernen verschiedene Elemente des Kopfes einer HTML-Datei kennen und
-setzen den angezeigten Titel der Datei, die Beschreibung und den
-verwendeten Zeichensatz.
+Sie lernen die Basiselemente einer HTML-Datei kennen.
 
 === Fragen zur Lerneinheit ===
 
-* Warum benötigt eine HTML-Datei eine Titelangabe?
-* Wo wird diese Titelangabe angezeigt?
-* Welchen Nutzen hat die Beschreibung einer HTML-Datei?
-* Wie zeigt der Webbrowser die HTML-Datei an, wenn der Zeichensatz
-  nicht im Header der HTML-Datei angegeben ist?
+* Warum erfolgt eine Unterteilung der HTML-Datei in Kopf und Körper?
