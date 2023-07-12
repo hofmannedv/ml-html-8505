@@ -1,0 +1,39 @@
+== Zugehörigkeit ==
+
+Kapitel 5 
+
+== Aufgabe 5b: CSS und Vererbung ==
+
+Erstellen Sie eine Stilvorlage unter Berücksichtigung der Vererbung von
+Eigenschaften, die die folgenden Bedingungen erfüllt:
+
+* Seiteninhalts: weiss, serifenlose Schrift
+* Text für den Absatz: dunkelblau, serifenlose Schrift
+* Überschrift der Klasse H1: Hintergrund dunkelblau, serifenbehaftete Schrift
+
+=== Lösung === 
+
+----
+body { 
+  background-color: white; 
+  font-family: sans-serif;
+}
+body.p {
+  color: darkblue;
+}
+h1 {
+  background-color: darkblue;
+  font-family: sans-serif;
+}
+----
+
+=== Lernziele ===
+
+Sie erlernen, wie Sie Eigenschaften von HTML-Tags an nachgeordnete
+HTML-Tags vererben.
+
+=== Fragen zum Verständnis ===
+
+* In welchem Zusammenhang ist die Vererbung von Eigenschaften wichtig?
+* Welche Eigenschaften werden nicht an nachgeordnete Elemente vererbt?
+
