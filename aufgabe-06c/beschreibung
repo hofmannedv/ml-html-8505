@@ -1,0 +1,45 @@
+== Zugehörigkeit ==
+
+Kapitel 6
+
+== Aufgabe 6c: Zusätzliche Angaben der Webseite ===
+
+Ergänzen Sie die HTML-Datei aus Aufgabe 6b um:
+
+* die Beschreibung "Übersicht zu den Veranstaltungen"
+* um den verwendeten Zeichensatz, hier: UTF-8
+* eine interne Stilvorlage für den weißen Seitenhintergrund mit
+  schwarzer Textfarbe
+
+=== Lösung ===
+
+----
+<!doctype html>
+<HTML lang="de">
+<HEAD>
+  <TITLE>Veranstaltungsübersicht</TITLE>
+  <META name="description" content="Übersicht zu den Veranstaltungen">
+  <META charset="utf8">
+  <STYLE>
+    p {
+      background-color: white;
+      color: black;
+    }
+  </STYLE>
+</HEAD>
+<BODY>
+  <P>Übersicht zu den Veranstaltungen</P>
+</BODY>
+</HTML>
+----
+
+=== Lernziele ===
+
+Hier lernen Sie kennen, welche zusätzlichen Informationen im Kopf der
+HTML-Datei untergebracht werden können.
+
+=== Fragen zur Lerneinheit ===
+
+* Welchen Nutzen hat die Beschreibung einer HTML-Datei?
+* Wie zeigt der Webbrowser die HTML-Datei an, wenn der Zeichensatz
+  nicht im Header der HTML-Datei angegeben ist?
