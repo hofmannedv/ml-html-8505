@@ -2,6 +2,38 @@
 
 Kapitel 3 
 
+=== Aufgabe 3 ===
+
+Sie tragen Verantwortung für die Pflege einer Webseite für
+Veranstaltungen in einem Schulungszentrum. Über die Webseite informieren
+sich die Schulungsteilnehmer, in welchem Raum ihr Lehrgang stattfindet. 
+Die bisherige Struktur der Webseite umfasst diese Navigationselemente
+beginnend mit der oberen, linken Ecke:
+
+----
+<NAV>
+  <UL>Veranstaltungen</UL>
+  <UL>Kontakt</UL>
+  <UL>Partner</UL>
+  <UL>Logo des Veranstaltungszentrums</UL>
+</NAV>
+----
+
+Bewerten Sie diese Navigationsstruktur und erarbeiten Sie einen
+Vorschlag zur Korrektur, falls erforderlich.
+
+=== Lösung ===
+
+----
+<NAV>
+  <UL>Logo des Veranstaltungszentrums</UL>
+  <UL>Veranstaltungen</UL>
+  <UL>Partner</UL>
+  <UL>Kontakt</UL>
+  <UL>Impressum</UL>
+</NAV>
+----
+
 === Lernziele ===
 
 Sie lernen, wie Sie Webseiten inhaltlich strukturieren und eine
