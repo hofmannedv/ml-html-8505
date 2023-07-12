@@ -12,10 +12,10 @@ beginnend mit der oberen, linken Ecke:
 
 ----
 <NAV>
-  <UL>Veranstaltungen</UL>
-  <UL>Kontakt</UL>
-  <UL>Partner</UL>
-  <UL>Logo des Veranstaltungszentrums</UL>
+<UL>Veranstaltungen</UL>
+<UL>Kontakt</UL>
+<UL>Partner</UL>
+<UL>Logo des Veranstaltungszentrums</UL>
 </NAV>
 ----
 
@@ -26,11 +26,11 @@ Vorschlag zur Korrektur, falls erforderlich.
 
 ----
 <NAV>
-  <UL>Logo des Veranstaltungszentrums</UL>
-  <UL>Veranstaltungen</UL>
-  <UL>Partner</UL>
-  <UL>Kontakt</UL>
-  <UL>Impressum</UL>
+<UL>Logo des Veranstaltungszentrums</UL>
+<UL>Veranstaltungen</UL>
+<UL>Partner</UL>
+<UL>Kontakt</UL>
+<UL>Impressum</UL>
 </NAV>
 ----
 
