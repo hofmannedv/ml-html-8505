@@ -1,6 +1,6 @@
 == Zugehörigkeit ==
 
-Kapitel 1 und 4
+Kapitel 1
 
 == Aufgabe 1: Grundlegende HTML-Datei ==
 
@@ -15,7 +15,8 @@ Vorhanden ist diese HTML-Datei:
 Ergänzen Sie diese Datei um:
 
 * die Angabe zur Sprache der Seite "Deutsch"
-* den Seitentitel "Veranstaltungsübersicht"
+* die HTML-Tags für den Header und Body
+* einen Absatz mit dem Inhalt "Übersicht zu den Veranstaltungen"
 
 Speichern Sie die Daten in der Datei aufgabe-01.html ab. Öffnen Sie 
 die Datei anschließend in ihrem Webbrowser.
@@ -24,9 +25,7 @@ die Datei anschließend in ihrem Webbrowser.
 
 ----
 <HTML lang="de">
-<HEAD>
-  <TITLE>Veranstaltungsübersicht</TITLE>
-</HEAD>
+<HEAD></HEAD>
 <BODY>
   <P>Übersicht zu den Veranstaltungen</P>
 </BODY>
