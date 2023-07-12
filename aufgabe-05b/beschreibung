@@ -7,9 +7,9 @@ Kapitel 5
 Erstellen Sie eine Stilvorlage unter Berücksichtigung der Vererbung von
 Eigenschaften, die die folgenden Bedingungen erfüllt:
 
-* Seiteninhalts: weiss, serifenlose Schrift
+* Seiteninhalt: weiss, serifenlose Schrift
 * Text für den Absatz: dunkelblau, serifenlose Schrift
-* Überschrift der Klasse H1: Hintergrund dunkelblau, serifenbehaftete Schrift
+* Überschrift der Klasse H1: Hintergrund dunkelblau, serifenbasierte Schrift
 
 === Lösung === 
 
