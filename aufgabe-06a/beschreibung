@@ -1,0 +1,32 @@
+== Zugehörigkeit ==
+
+Kapitel 6
+
+== Aufgabe 6a: Namensgebung der Webseite ===
+
+Ergänzen Sie diese Datei um:
+
+* den Seitentitel "Veranstaltungsübersicht"
+
+
+=== Lösung ===
+
+----
+<HTML lang="de">
+<HEAD>
+  <TITLE>Veranstaltungsübersicht</TITLE>
+</HEAD>
+<BODY>
+  <P>Übersicht zu den Veranstaltungen</P>
+</BODY>
+</HTML>
+----
+
+=== Lernziele ===
+
+Sie erlernen, wie Sie den angezeigten Titel einer Webseite hinterlegen.
+
+=== Fragen zur Lerneinheit ===
+
+* Warum benötigt eine HTML-Datei eine Titelangabe?
+* Wo wird diese Titelangabe angezeigt?
