@@ -8,10 +8,10 @@ Ergänzen Sie die Datei aus Aufgabe 4 um:
 
 * den Seitentitel "Veranstaltungsübersicht"
 
-
 === Lösung ===
 
 ----
+<!doctype html>
 <HTML lang="de">
 <HEAD>
   <TITLE>Veranstaltungsübersicht</TITLE>
