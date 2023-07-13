@@ -13,6 +13,9 @@ Spalte ein.
 * binden Sie das Bild workshop.png für die erste Veranstaltung ein.
   Ergänzen Sie es in der zweiten Spalte
 
+Mit einer Angabe zur Breite ändern Sie die Größe des Bildes. Zudem fügen
+Sie ein alt-Attribut zur Erhöhung der Barrierefreiheit hinzu.
+
 === Lösung mit Beispieldaten ===
 
 aufgabe-10.html
@@ -48,7 +51,7 @@ aufgabe-10.html
         <TR>
           <TD>9:00-10:30</TD>
           <TD>
-            <IMG src="workshop.png">
+            <IMG src="workshop.png" width="40px" alt="Kennzeichnung als Workshop">
           </TD>
           <TD>Workshop: Grundlagen der Linux-Kommandozeile</TD>
           <TD>Robert F. Link</TD>
