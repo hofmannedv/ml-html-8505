@@ -134,8 +134,11 @@ ein Bildes im PNG-Format aus einer externen Datei ein.
 
 === Fragen zur Lerneinheit ===
 
-* Was passiert, wenn das referenzierte Bild nicht eingebunden werden kann?
-* Wie muss die Bildbeschreibung über das alt-Attribut formuliert werden, 
+1 Was passiert, wenn das referenzierte Bild nicht eingebunden werden kann?
+
+2 Wie muss die Bildbeschreibung über das alt-Attribut formuliert werden, 
   damit diese möglichst als barrierearm gilt?
-* Welche Werkzeuge lesen die Bildbeschreibung über das alt-Attribut aus?
-* Welche anderen Formate außer Bildern können Sie ebenfalls einbinden?
+
+3 Welche Werkzeuge lesen die Bildbeschreibung über das alt-Attribut aus?
+
+4 Welche anderen Formate außer Bildern können Sie ebenfalls einbinden?

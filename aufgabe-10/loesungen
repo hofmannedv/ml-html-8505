@@ -1,0 +1,23 @@
+=== Fragen zur Lerneinheit ===
+
+1 Was passiert, wenn das referenzierte Bild nicht eingebunden werden kann?
+
+Je nach Webbrowser erscheint kleines, zerbrochenes Bild, welches die
+Situation illustriert.
+
+
+2 Wie muss die Bildbeschreibung über das alt-Attribut formuliert werden, 
+  damit diese möglichst als barrierearm gilt?
+
+Die Beschreibung muss so formuliert werden, dass daraus klar hervorgeht,
+was auf dem Bild zu sehen ist.
+
+
+3 Welche Werkzeuge lesen die Bildbeschreibung über das alt-Attribut aus?
+
+Dazu gehören Screenreader, Textbrowser und Suchmaschinen.
+
+
+4 Welche anderen Formate außer Bildern können Sie ebenfalls einbinden?
+
+Zulässig sind ebenfalls Audio- und Videodaten.
