@@ -130,6 +130,11 @@ stilvorlage.css
 Hier lernen Sie kennen, wie Sie Inhalt und Darstellung einer Webseite
 voneinander trennen und über die Verlinkung zusammenführen.
 
-=== Fragen ===
+=== Fragen zur Lerneinheit ===
 
-* ToDo
+* Wie binden Sie eine externe Stilvorlage in ihre HTML-Datei ein?
+* Können Sie Stilangaben auch außerhalb des Kopfes der HTML-Datei angeben?
+* Muss eine Stilvorlage lokal vorliegen, sprich: sich im gleichen 
+  Verzeichnis wie die HTML-Datei befinden?
+* Falls Sie mehrere Stilvorlagen eingebunden haben, welche Vorlage
+  bzw. welche Angaben darin sind maßgeblich für die Darstellung?
