@@ -98,7 +98,7 @@ Benutzen Sie HTML-Tags, die die Tabelle sauber in Kopf und Körper
       &nbsp;|&nbsp;
       &copy; KIT
       &nbsp;|&nbsp;
-      <A HREF="#seitenanfang">Zum Seitenanfang
+      <A HREF="#seitenanfang">Zum Seitenanfang</A>
     </DIV>
   </FOOTER>
 </BODY>
