@@ -1,0 +1,33 @@
+=== Fragen zur Lerneinheit ===
+
+1 Mit welchem Werkzeug bearbeiten Sie eine HTML-Datei?
+
+Eine HTML-Datei ist eine Textdatei. Sie bearbeiten diese mit einem
+Texteditor oder mit einer integrierten Entwicklungsumgebung (IDE).
+
+
+2 Womit prüfen Sie eine HTML- und CSS-Datei auf syntaktische Korrektheit?
+
+Dazu benutzen Sie einen sogenannten Linter, bspw. den W3C Markup
+Validation Service:
+
+https://validator.w3.org/
+
+
+3 Benennen Sie zwei Hilfsmittel, die Ihnen zusätzliche Informationen zu
+  HTML- und CSS-Angaben liefern.
+
+Als Hilfsmittel steht Ihnen bspw. die Plattformen SelfHTML und w3schools 
+zur Verfügung:
+
+https://wiki.selfhtml.org/
+https://www.w3schools.com/html/
+
+
+4 Welche Wege kennen Sie, um zu überprüfen, wie HTML und CSS auf ihrem
+  Ausgabegerät dargestellt werden?
+
+Weg 1 ist die Benutzung unterschiedlicher Webbrowser auf verschiedenen
+Ausgabegeräten. Weg 2 geht über die Entwicklungswerkzeuge, die in den 
+aktuellen Webbrowsern enthalten sind. Dort schalten Sie bspw. die
+Darstellung zwischen Monitor und Tablet/Smartphone um.
