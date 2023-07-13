@@ -1,0 +1,24 @@
+=== Fragen zur Lerneinheit ===
+
+1 Aus welchen Komponenten besteht eine Stilangabe?
+
+Eine Stilangabe setzt sich zusammen aus einem oder mehreren HTML-Tags
+gefolgt von den Attributen, oder einem Klassennamen gefolgt von den
+Attributen. Die Angabe der Attribute erfolgt in geschweiften Klammern. 
+Jedes Attribut ist eine Wertzuweisung, die Sie mit einem Semikolon
+abschließen.
+
+----
+p { background-color: yellow; }
+.blau { color: blue; }
+----
+
+
+2 Wie kommentieren Sie eine Stilangabe aus?
+
+Dazu benutzen Sie eine Schreibweise analog zu C/C++ mit Hilfe von
+Schrägstrichen und Sternen:
+
+----
+/* Das ist ein Kommentar */
+----
