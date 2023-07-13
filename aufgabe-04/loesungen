@@ -1,0 +1,16 @@
+=== Fragen zur Lerneinheit ===
+
+1 Welche weiteren Dokumenttypen bzgl. der Angabe doctype kennen Sie?
+
+Die Angabe Doctype besteht für eine ganze Reihe von Dateiformaten:
+
+- HTML
+- CSS
+- XML
+- SGML
+
+
+2 Warum erfolgt eine Unterteilung der HTML-Datei in Kopf und Körper?
+
+Im HTML-Kopf stehen die Metainformationen zum HTML-Dokument. Im Körper
+("HTML-Body") stehen die eigentlichen Inhalte der HTML-Datei.
