@@ -1,0 +1,25 @@
+=== Fragen zur Lerneinheit ===
+
+1 Wie binden Sie eine externe Stilvorlage in ihre HTML-Datei ein?
+
+Dazu benutzen Sie das LINK-Tag im Kopf der HTML-Datei.
+
+
+2 Können Sie Stilangaben auch außerhalb des Kopfes der HTML-Datei angeben?
+
+Ja, bspw. mit dem style-Attribut. Das geben Sie dann bei dem
+entsprechenden Element an.
+
+
+3 Muss eine Stilvorlage lokal vorliegen, sprich: sich im gleichen 
+  Verzeichnis wie die HTML-Datei befinden?
+
+Nein, die Stilvorlage muss nicht lokal vorliegen, sie muss nur
+erreichbar sein.
+
+
+4 Falls Sie mehrere Stilvorlagen eingebunden haben, welche Vorlage
+  bzw. welche Angaben darin sind maßgeblich für die Darstellung?
+
+Die Vorlagen werden in der Reihenfolge verarbeitet, wie Sie sie
+angegeben haben.

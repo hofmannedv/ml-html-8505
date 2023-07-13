@@ -132,9 +132,12 @@ voneinander trennen und über die Verlinkung zusammenführen.
 
 === Fragen zur Lerneinheit ===
 
-* Wie binden Sie eine externe Stilvorlage in ihre HTML-Datei ein?
-* Können Sie Stilangaben auch außerhalb des Kopfes der HTML-Datei angeben?
-* Muss eine Stilvorlage lokal vorliegen, sprich: sich im gleichen 
+1 Wie binden Sie eine externe Stilvorlage in ihre HTML-Datei ein?
+
+2 Können Sie Stilangaben auch außerhalb des Kopfes der HTML-Datei angeben?
+
+3 Muss eine Stilvorlage lokal vorliegen, sprich: sich im gleichen 
   Verzeichnis wie die HTML-Datei befinden?
-* Falls Sie mehrere Stilvorlagen eingebunden haben, welche Vorlage
+
+4 Falls Sie mehrere Stilvorlagen eingebunden haben, welche Vorlage
   bzw. welche Angaben darin sind maßgeblich für die Darstellung?
