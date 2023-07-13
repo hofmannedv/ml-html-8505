@@ -9,7 +9,7 @@ die Webseite in
 
 * eine Kopfzeile, bestehend aus dem heutigen Datum (links angeordnet)
   und einer horizontalen Linie am unteren Rand der Kopfzeile
-* eine Angabe zum Hauptteil mit dem bereits vorhandenen Absatz
+* eine Angabe zum Hauptteil mit der bereits vorhandenen Überschrift
 * eine Fußzeile, bestehend aus einer horizontalen Linie am oberen Rand 
   der Fußzeile und einem rechtsbündig angeordneten Text "(C) KIT".
   Benutzen Sie dabei das HTML-Sonderzeichen für das Copyright-Symbol.
@@ -40,7 +40,7 @@ die Webseite in
     <HR>
   </HEADER>
   <MAIN>
-    <P>Übersicht zu den Veranstaltungen</P>
+    <H1>Übersicht zu den Veranstaltungen</H1>
   </MAIN>
   <FOOTER>
     <HR>
