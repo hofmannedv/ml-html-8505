@@ -1,0 +1,14 @@
+=== Fragen zur Lerneinheit ===
+
+1 Welche Farbmodelle unterstützt CSS?
+
+CSS unterstützt die Farbmodelle RGB und RGBA.
+
+
+2 Wie geben Sie eine Farbe an, wenn Sie ein HTML-Element einfärben?
+
+Weg 1 ist die Angabe des Farbwertes als Wort, bspw. red oder blue.
+Weg 2 ist die Verwendung des Farbwertes in hexadezimaler Schreibweise,
+bspw. #FF0000 (kurz: #F00) für rot oder #0000FF (kurz: #00F) für blau. 
+Weg 3 ist mit Hilfe der Angabe rgb() und den Werten in Klammern, bspw. 
+rgb(255, 0, 0) für rot oder rgb(255, 0, 0, 0.5) für rot als RGBA-Wert.
