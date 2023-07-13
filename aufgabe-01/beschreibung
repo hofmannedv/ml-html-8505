@@ -1,5 +1,4 @@
-== Zugehörigkeit ==
-
+== Zugehörigkeit == 
 Kapitel 1
 
 == Aufgabe 1: Grundlegende HTML-Datei ==
@@ -35,10 +34,10 @@ unterscheiden.
 
 === Fragen zur Lerneinheit ===
 
-* Wodurch unterscheiden sich HTML und eine Programmiersprache voneinander?
-* Was ist ein HTML-Attribut und wie sieht dessen Schreibweise aus?
-* Was ist CSS und zu welchem spezifischen Einsatzzweck verwenden Sie es?
-* Womit bearbeiten Sie CSS-Angaben?
-* Können HTML und CSS miteinander kombiniert werden? Wenn ja, wie?
-* Welche Voraussetzungen müssen gegeben sein, dass die CSS-Angaben 
+1 Wodurch unterscheiden sich HTML und Programmiersprachen voneinander?
+2 Was ist ein HTML-Attribut und wie sieht dessen Schreibweise aus?
+3 Was ist CSS und zu welchem spezifischen Einsatzzweck verwenden Sie es?
+4 Womit bearbeiten Sie CSS-Angaben?
+5 Können HTML und CSS miteinander kombiniert werden? Wenn ja, wie?
+6 Welche Voraussetzungen müssen gegeben sein, dass die CSS-Angaben 
   bei der Darstellung ihrer Webseite berücksichtigt werden?
