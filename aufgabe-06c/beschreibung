@@ -40,6 +40,7 @@ HTML-Datei untergebracht werden können.
 
 === Fragen zur Lerneinheit ===
 
-* Welchen Nutzen hat die Beschreibung einer HTML-Datei?
-* Wie zeigt der Webbrowser die HTML-Datei an, wenn der Zeichensatz
+1 Welchen Nutzen hat die Beschreibung einer HTML-Datei?
+
+2 Wie zeigt der Webbrowser die HTML-Datei an, wenn der Zeichensatz
   nicht im Header der HTML-Datei angegeben ist?

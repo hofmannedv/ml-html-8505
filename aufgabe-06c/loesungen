@@ -1,0 +1,13 @@
+=== Fragen zur Lerneinheit ===
+
+1 Welchen Nutzen hat die Beschreibung einer HTML-Datei?
+
+Der Webbrowser zeigt diese Information in seiner Vorschau an und
+vereinfacht Ihnen darüber die Auswahl.
+
+
+2 Wie zeigt der Webbrowser die HTML-Datei an, wenn der Zeichensatz
+  nicht im Header der HTML-Datei angegeben ist?
+
+Der Webbrowser rät den Zeichensatz, stützt sich dabei aber auf die Werte
+im aktuellen Environment und benutzt diese, sofern hinterlegt.
