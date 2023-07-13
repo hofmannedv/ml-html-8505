@@ -1,17 +1,3 @@
-== Zugehörigkeit ==
-
-Kapitel 7
-
-== Aufgabe 9: Inhalt und Gestaltung voneinander trennen ==
-
-Bislang stehen die Stilangaben direkt im Kopf der HTML-Datei. Separieren
-Sie nun beide Inhalte voneinander, speichern die Stilangaben in der
-Datei stilvorlage.css ab und binden diese im Kopf der HTML-Datei ein.
-
-=== Lösung mit Beispieldaten ===
-
-aufgabe-09.html
-----
 <!doctype html>
 <HTML lang="de" id="seitenanfang">
 <HEAD>
@@ -76,53 +62,4 @@ aufgabe-09.html
     </DIV>
   </FOOTER>
 </BODY>
-</HTML>----
-
-stilvorlage.css
-----
-    p {
-      background-color: white;
-      color: black;
-    }
-    h1 {
-      background-color: darkblue;
-      color: white;
-      padding: 1rem;
-    }
-    h2 {
-      background-color: orange;
-      color: black;
-      padding: 0.5rem;
-      font-family: Helvetica, Arial, Sans-Serif;
-    }
-    .kursiv {
-      font-style: italic;
-    }
-    table {
-      width: 100%;
-      text-align: left;
-      vertical-align: top;
-      border-collapse: collapse;
-    }
-    th, td {
-      padding: 0.5rem;
-    }
-    thead {
-      background-color: lightgrey;
-    }
-    tbody {
-      background-color: whitesmoke;
-    }
-    tr:nth-child(even) {
-      background-color: #e0e0e0;
-    }
-----
-
-=== Lernziele ===
-
-Hier lernen Sie kennen, wie Sie Inhalt und Darstellung einer Webseite
-voneinander trennen und über die Verlinkung zusammenführen.
-
-=== Fragen ===
-
-* ToDo
+</HTML>
