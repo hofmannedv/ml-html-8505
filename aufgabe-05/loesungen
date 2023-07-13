@@ -1,0 +1,10 @@
+=== Fragen zur Lerneinheit ===
+
+1 Wie wenden Sie eine CSS-Klasse auf die Gestaltung einer oder 
+  mehrerer HTML-Elemente an? 
+
+Dazu benutzen Sie das style-Attribut wie folgt:
+
+----
+<DIV style="klassenname">...</DIV>
+----
