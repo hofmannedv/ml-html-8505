@@ -1,20 +1,39 @@
 == Zugehörigkeit ==
 
-Kapitel 7
+Kapitel 6
 
-== Aufgabe 4: Struktur der HTML-Seite ==
+== Aufgabe 6: Elemente für den HTML-Header ==
 
-Strukturieren Sie die Webseite in
+Den Ausgangspunkt bildet diese bestehende HTML-Datei:
 
-* eine Kopfzeile, bestehend aus dem heutigen Datum (links angeordnet)
-  und einer horizontalen Linie am unteren Rand der Kopfzeile
-* eine Angabe zum Hauptteil
-* eine Fußzeile, bestehend aus einer horizontalen Linie am oberen Rand 
-  der Fußzeile und einem rechtsbündig angeordneten Text "(C) KIT"
+----
+<!doctype html>
+<HTML lang="de">
+<HEAD></HEAD>
+<BODY>
+  <P>Übersicht zu den Veranstaltungen</P>
+</BODY>
+</HTML>
+----
+
+Ergänzen Sie diese HTML-Datei um:
+
+* eine Titelangabe "Veranstaltungsübersicht"
+* eine Beschreibung "Übersicht zu den Veranstaltungen"
+* den verwendeten Zeichensatz UTF-8
+
+Wandeln Sie den Absatz in eine Überschrift der Klasse H1 um.
+Ergänzen Sie über dem Titel das aktuelle Datum, linksbündig
+ausgerichtet.
+
+Färben Sie die Überschrift mittels zusätzlicher Angabe in der
+Stilvorlage ein. Die Überschrift erscheint in weiss mit dunkelblauem
+Hintergrund.
 
 === Lösung ===
 
 ----
+<!doctype html>
 <HTML lang="de">
 <HEAD>
   <TITLE>Veranstaltungsübersicht</TITLE>
@@ -25,20 +44,15 @@ Strukturieren Sie die Webseite in
       background-color: white;
       color: black;
     }
+    h1 {
+      background-color: darkblue;
+      color: white;
+    }
   </STYLE>
 </HEAD>
 <BODY>
-  <HEADER>
-    1. Juli 2023
-    <HR>
-  </HEADER>
-  <MAIN>
-    <P>Übersicht zu den Veranstaltungen</P>
-  </MAIN>
-  <FOOTER>
-    <HR>
-    <DIV align="right">&copy; KIT</DIV>
-  </FOOTER>
+  1. Juli 2013
+  <H1>Übersicht zu den Veranstaltungen</H1>
 </BODY>
 </HTML>
 ----
