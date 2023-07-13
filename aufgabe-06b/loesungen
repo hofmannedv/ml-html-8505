@@ -1,0 +1,12 @@
+=== Fragen zur Lerneinheit ===
+
+1 Was passiert, wenn die referenzierte Stilvorlage nicht gelesen werden
+  kann?
+
+Der Webbrowser gibt keine Fehlermeldung aus. Der Inhalt der Webseite
+erscheint auf der Basis der integrierten Stilvorlage des Webbrowsers.
+
+
+2 Wieviele Stilvorlagen dürfen im Kopf der HTML-Datei aufgeführt sein?
+
+Es besteht keine Begrenzung, wieviele Stilvorlagen Sie angeben dürfen.
