@@ -1,0 +1,12 @@
+=== Fragen zur Lerneinheit ===
+
+1 Welche HTML-Tags zur logischen Strukturierung einer Webseite kennen Sie?
+
+Dazu gehören <HEADER>, <FOOTER>, <NAV>, <MAIN>, <SECTION> sowie <H1> bis
+<H6>.
+
+
+2 Wie geben Sie ein HTML-Sonderzeichen an?
+
+Diese beginnen mit einem "&" gefolgt vom Namen des Sonderzeichens und
+einem Semikolon, bspw. "&nbsp;" für ein Leerzeichen.
