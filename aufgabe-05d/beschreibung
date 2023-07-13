@@ -37,8 +37,9 @@ binden diese Stilvorlage direkt in der HTML-Datei ein.
 
 === Fragen zur Lerneinheit ===
 
-* Was müssen Sie bei der Einbindung der Stilvorlage beachten?
-* Angenommen, Sie erstellen mehrere HTML-Dateien, die die gleiche
+1 Was müssen Sie bei der Einbindung der Stilvorlage beachten?
+
+2 Angenommen, Sie erstellen mehrere HTML-Dateien, die die gleiche
   Stilvorlage benutzen sollen. Wie gehen Sie mit Änderungen der
   Stilvorlage um?
 

@@ -1,0 +1,14 @@
+=== Fragen zur Lerneinheit ===
+
+1 Was müssen Sie bei der Einbindung der Stilvorlage beachten?
+
+Die Stilvorlage muss a) syntaktisch korrekt sein und b) auch zugreifbar
+sein. 
+
+
+2 Angenommen, Sie erstellen mehrere HTML-Dateien, die die gleiche
+  Stilvorlage benutzen sollen. Wie gehen Sie mit Änderungen der
+  Stilvorlage um?
+
+Es empfiehlt sich, die Stilvorlage als externe Datei anzulegen und dann
+in jede HTML-Datei über eine Referenz einzubinden. 
