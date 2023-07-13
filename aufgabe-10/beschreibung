@@ -1,50 +1,28 @@
 == Zugehörigkeit ==
 
-Kapitel 5 und 7
+Kapitel 7
 
-== Aufgabe 8: Verschönern Sie die Tabelle (Teil 1) ==
+== Aufgabe 11: Bild einbinden ==
 
-Die in Aufgabe 7 erstellte Tabelle gibt die Daten bereits aus, ist aber
-noch nicht besonders gut lesbar. Dieser Schritt erfolgt jetzt. Ergänzen
-Sie die Stilangabe im Kopf der HTML-Datei wie folgt:
+Zur besseren Kennzeichnung werden Workshops mit dem WS-Symbol
+hervorgehoben. Dazu binden Sie ein passendes Bild in der entsprechenden
+Spalte ein. 
 
-* richten Sie die Inhalte aller Spalten linksbündig und zur
-  Zelloberkante hin aus
-* färben Sie den Hintergrund der Kopfzeile der Tabelle in hellgrau ein
-* färben Sie den Hintergrund des Tabellenkörpers in ganz hellem hellgrau ein
-* fügen Sie zur besseren Lesbarkeit zwischen dem Text und dem Zellenrand 
-  einen Abstand von 0.5rem ein
-* entfernen Sie den Zwischenraum zwischen den Zellen
+* ergänzen Sie die Tabelle um eine weitere Spalte zwischen Zeitraum und
+  Thema
+* binden Sie das Bild workshop.png für die erste Veranstaltung ein.
+  Ergänzen Sie es in der zweiten Spalte
 
 === Lösung mit Beispieldaten ===
 
+aufgabe-11.html
 ----
 <HTML lang="de">
 <HEAD>
   <TITLE>Veranstaltungsübersicht</TITLE>
   <META name="description" content="Übersicht zu den Veranstaltungen">
   <META charset="utf8">
-  <STYLE>
-    h1 {
-      background-color: #00008B;
-      color: white;
-      padding: 1rem;
-    }
-    table {
-      text-align: left;
-      vertical-align: top;
-      border-collapse: collapse;
-    }
-    th, td {
-      padding: 0.5rem;
-    }
-    thead {
-      background-color: lightgrey;
-    }
-    tbody {
-      background-color: whitesmoke;
-    }
-  </STYLE>
+  <LINK href="stilvorlage.css" rel="stylesheet">
 </HEAD>
 <BODY>
   <HEADER>
@@ -57,6 +35,7 @@ Sie die Stilangabe im Kopf der HTML-Datei wie folgt:
       <THEAD>
         <TR>
           <TH>Zeitraum</TH>
+          <TH></TH>
           <TH>Thema</TH>
           <TH>Sprecher</TH>
           <TH>Raum</TH>
@@ -65,18 +44,23 @@ Sie die Stilangabe im Kopf der HTML-Datei wie folgt:
       <TBODY>
         <TR>
           <TD>9:00-10:30</TD>
+          <TD>
+            <IMG src="workshop.png">
+          </TD>
           <TD>Workshop: Grundlagen der Linux-Kommandozeile</TD>
           <TD>Robert F. Link</TD>
           <TD>105</TD>
         </TR>
         <TR>
           <TD>10:45-12:00</TD>
+          <TD></TD>
           <TD>Sichere Kommunkation mit ssh</TD>
           <TD>S. Uperschlau</TD>
           <TD>107</TD>
         </TR>
         <TR>
           <TD>10:45-12:00</TD>
+          <TD></TD>
           <TD>Tips und Tricks für die Datenverwaltung</TD>
           <TD>Robert F. Link</TD>
           <TD>105</TD>
@@ -92,7 +76,34 @@ Sie die Stilangabe im Kopf der HTML-Datei wie folgt:
 </HTML>
 ----
 
+stilvorlage.css
+----
+    h1 {
+      background-color: #00008B;
+      color: white;
+      padding: 1rem;
+    }
+    table {
+      width: 100%;
+      text-align: left;
+      vertical-align: top;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 0.5rem;
+    }
+    thead {
+      background-color: lightgrey;
+    }
+    tbody {
+      background-color: whitesmoke;
+    }
+    tr:nth-child(even) {
+      background-color: #e0e0e0;
+    }
+----
+
 === Lernziele ===
 
-* anpassen der internen Stilvorlage
-* Kennenlernen der Attribute zur Darstellung der Tabelle
+* Kennenlernen der unterstützten Dateiformate für Bilder
+* Einbinden eines Bildes im PNG-Format aus einer externen Datei
