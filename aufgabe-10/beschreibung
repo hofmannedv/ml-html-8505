@@ -132,4 +132,10 @@ stilvorlage.css
 Sie lernen die unterstützten Dateiformate für Bilder kennen und binden
 ein Bildes im PNG-Format aus einer externen Datei ein.
 
-=== ToDo ===
+=== Fragen zur Lerneinheit ===
+
+* Was passiert, wenn das referenzierte Bild nicht eingebunden werden kann?
+* Wie muss die Bildbeschreibung über das alt-Attribut formuliert werden, 
+  damit diese möglichst als barrierearm gilt?
+* Welche Werkzeuge lesen die Bildbeschreibung über das alt-Attribut aus?
+* Welche anderen Formate außer Bildern können Sie ebenfalls einbinden?
