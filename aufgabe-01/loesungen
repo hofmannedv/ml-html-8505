@@ -1,0 +1,46 @@
+=== Fragen zur Lerneinheit ===
+
+1 Wodurch unterscheiden sich HTML und Programmiersprachen voneinander?
+
+HTML ist eine Auszeichnungssprache. Die HTML-Tags -- die sogenannten
+Auszeichnungselemente -- werden vom Webbrowser gelesen, interpretiert
+und dargestellt. Bei Programmiersprachen findet ein Übersetzungsvorgang
+in Prozessoranweisungen statt ("cpu instructions").
+
+
+2 Was ist ein HTML-Attribut und wie sieht dessen Schreibweise aus?
+
+Ein HTML-Attribut folgt der Form "bezeichner" und wird durch ein
+Leerzeichen von HTML-Tag getrennt geschrieben. Es kann, aber muss nicht
+um eine Wertangabe ergänzt sein.
+
+
+3 Was ist CSS und zu welchem spezifischen Einsatzzweck verwenden Sie es?
+
+CSS steht für Cascading Stylesheets (Kaskadierende, aufeinander
+aufbauende Stilvorlage). Es beinhaltet die Darstellungs- oder
+Auszeichnungsangaben für die HTML-Tags. 
+
+
+4 Womit bearbeiten Sie CSS-Angaben?
+
+CSS-Angaben bearbeiten Sie mit einem Texteditor. Es ist kein spezielles
+Werkzeug dafür erforderlich.
+
+
+5 Können HTML und CSS miteinander kombiniert werden? Wenn ja, wie?
+
+Ja. Zur Kombination bestehen drei Möglichkeiten -- entweder spezifisch
+für das jeweilige HTML-Tag mittels style-Attribut, über eine Stilvorlage
+im Kopf der HTML-Datei oder über eine externe Stilvorlage, die im Kopf
+der HTML-Datei referenziert ist.
+
+
+6 Welche Voraussetzungen müssen gegeben sein, dass die CSS-Angaben 
+  bei der Darstellung ihrer Webseite berücksichtigt werden?
+
+Die CSS-Angaben müssen fehlerfrei vorliegen, die Stilvorlage muss
+korrekt in die HTML-Datei eingebunden sein und das Ausgabewerkzeug oder 
+Programm muss CSS darstellen können (Textbrowser können das nicht oder
+nur sehr eingeschränkt).
+
