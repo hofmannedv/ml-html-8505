@@ -1,0 +1,20 @@
+=== Fragen zur Lerneinheit ===
+
+1 Welcher Unterschied in der Darstellung besteht zwischen den beiden
+  HTML-Tags TH und TD?
+
+<TH> kürzt table header ab und stellt die Inhalte der Tabellenzelle
+zentriert und in Fettschrift dar, <TD> hingegen ohne voreingestellte
+Formatangaben.
+
+2 Wann ist es sinnvoll, Daten als Tabelle darzustellen?
+
+Sofern mehr als zwei Datensätze vorliegen, bietet sich eine Tabelle an.
+Andernfalls genügt ggf. eine Aufzählung im Text.
+
+
+3 Welche Formen von Listen kennen Sie?
+
+HTML unterstützt ungeordnete Aufzählungslisten mittels <UL></UL>, 
+nummerierte Aufzählungslisten mittels <OL></OL> und Beschreibungslisten
+mittels <DL></DL>.
