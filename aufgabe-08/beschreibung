@@ -113,7 +113,14 @@ ab. Ergänzen Sie die Stilangabe im Kopf der HTML-Datei wie folgt:
     <H2>Fortgeschrittene</H2>
     <P>Hier sehen Sie die Schulungen für <SPAN class="kursiv">Fortgeschrittene</SPAN></P>
     <H2>Experten</H2>
-    <P>Hier sehen Sie die Schulungen für Experten</P>
+    <P>Im Bereich für Experten werden derzeit (noch) keine Kurse
+    angeboten. Kurse zu den folgenden Themen sind in Vorbereitung:
+
+      <UL>
+        <LI>Umgang mit Containerumgebungen (Docker und Podman)</LI>
+        <LI>Verschlüsselte Dateisysteme</LI>
+      </UL>
+    </P>
   </MAIN>
   <FOOTER>
     <HR>
