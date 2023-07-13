@@ -5,8 +5,10 @@ Kapitel 7
 == Aufgabe 7e: Tabelle mit den Veranstaltungen einfügen ==
 
 Den Ausgangspunkt bildet das Ergebnis von Aufgabe 7d. Jetzt kommen
-noch Tabellen hinzu. Ergänzen Sie die Veranstaltungsübersicht für
-die Gruppe der Einsteiger um eine Tabelle mit den folgenden Spalten:
+noch Tabellen und Aufzählungen hinzu. 
+
+Ergänzen Sie die Veranstaltungsübersicht für die Gruppe der Einsteiger 
+um eine Tabelle mit den folgenden Spalten:
 
 * Zeitspanne (Beginn und Ende der Veranstaltung)
 * Thema der Veranstaltung
@@ -15,6 +17,12 @@ die Gruppe der Einsteiger um eine Tabelle mit den folgenden Spalten:
 
 Benutzen Sie HTML-Tags, die die Tabelle sauber in Kopf und Körper
 (Header und Body) strukturieren.
+
+Im Bereich für Experten werden derzeit (noch) keine Kurse angeboten. 
+Ergänzen Sie den Bereich um eine Auflistung möglicher Themen wie folgt:
+
+* Umgang mit Containerumgebungen (Docker und Podman)
+* Verschlüsselte Dateisysteme
 
 === Lösung ===
 
@@ -89,7 +97,14 @@ Benutzen Sie HTML-Tags, die die Tabelle sauber in Kopf und Körper
     <H2>Fortgeschrittene</H2>
     <P>Hier sehen Sie die Schulungen für <SPAN class="kursiv">Fortgeschrittene</SPAN></P>
     <H2>Experten</H2>
-    <P>Hier sehen Sie die Schulungen für Experten</P>
+    <P>Im Bereich für Experten werden derzeit (noch) keine Kurse
+    angeboten. Kurse zu den folgenden Themen sind in Vorbereitung:
+
+      <UL>
+        <LI>Umgang mit Containerumgebungen (Docker und Podman)</LI>
+        <LI>Verschlüsselte Dateisysteme</LI>
+      </UL>
+    </P>
   </MAIN>
   <FOOTER>
     <HR>
@@ -108,11 +123,12 @@ Benutzen Sie HTML-Tags, die die Tabelle sauber in Kopf und Körper
 === Lernziele ===
 
 Sie lernen die erweiterte Strukturierung der Seiteninhalte durch Tags 
-für Tabellen kennen und benutzen dabei die HTML-Tags <TABLE>, <THEAD>, 
-<TBODY>, <TH>, <TD> und <TR>.
+für Tabellen und Listen kennen und benutzen dabei die HTML-Tags <TABLE>, 
+<THEAD>, <TBODY>, <TH>, <TD>, <TR>, <UL> und <LI>
 
 === Fragen zur Lerneinheit ===
 
 * Welcher Unterschied in der Darstellung besteht zwischen den beiden
   HTML-Tags TH und TD?
 * Wann ist es sinnvoll, Daten als Tabelle darzustellen?
+* Welche Formen von Listen kennen Sie?
