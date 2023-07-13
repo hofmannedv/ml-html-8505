@@ -1,0 +1,12 @@
+=== Fragen zur Lerneinheit ===
+
+1 Wie richten Sie die Inhalte von Tabellenzellen aus? 
+
+Dazu existieren die beiden Attribute text-align (horizontal) und 
+vertical-align (vertikal).
+
+
+2 Mit welchem Werkzeug überprüfen Sie, ob die Tabelle barrierearm ist?
+
+Benutzen Sie dazu einen Screenreader oder einen Textbrowser, um die
+Seite darzustellen.
