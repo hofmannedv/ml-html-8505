@@ -1,0 +1,19 @@
+=== Fragen zur Lerneinheit ===
+
+1 Womit ergänzen Sie das die Angabe <A HREF>, um eine verlinkte Seite in
+  einem neuen Fenster des Webbrowsers zu öffnen?
+
+Dazu ergänzen Sie das HTML-Tag um diese Angabe: target="_blank"
+Der Verweis sieht dann wie folgt aus:
+
+----
+<a href="https://www.webseite.domain/" target="_blank">webseite</a>
+----
+
+2 Was passiert, wenn der angegebene Link ins Leere geht? Welche Schritte 
+  unternehmen Sie, um das Problem zu identifizieren und die Situation zu 
+  beheben?
+
+Wenn der Link ins Leere geht, kann der Webbrowser die referenzierte 
+Ressource nicht beziehen und/oder darstellen. Prüfen Sie, ob die 
+Schreibweise korrekt ist und ob die referenzierte Ressource existiert.
