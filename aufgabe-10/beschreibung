@@ -2,10 +2,10 @@
 
 Kapitel 7
 
-== Aufgabe 11: Bild einbinden ==
+== Aufgabe 10: Bild einbinden ==
 
-Zur besseren Kennzeichnung werden Workshops mit dem WS-Symbol
-hervorgehoben. Dazu binden Sie ein passendes Bild in der entsprechenden
+Zur besseren Kennzeichnung heben Sie Workshops in der Tabelle mit dem 
+WS-Symbol hervor. Dazu binden Sie ein passendes Bild in der entsprechenden
 Spalte ein. 
 
 * ergänzen Sie die Tabelle um eine weitere Spalte zwischen Zeitraum und
@@ -15,9 +15,10 @@ Spalte ein.
 
 === Lösung mit Beispieldaten ===
 
-aufgabe-11.html
+aufgabe-10.html
 ----
-<HTML lang="de">
+<!doctype html>
+<HTML lang="de" id="seitenanfang">
 <HEAD>
   <TITLE>Veranstaltungsübersicht</TITLE>
   <META name="description" content="Übersicht zu den Veranstaltungen">
@@ -31,6 +32,8 @@ aufgabe-11.html
   </HEADER>
   <MAIN>
     <H1>Übersicht zu den Veranstaltungen</H1>
+    <H2>Grundlagen</H2>
+    <P>Hier sehen Sie die Schulungen für <B>Einsteiger</B></P>
     <TABLE>
       <THEAD>
         <TR>
@@ -67,10 +70,28 @@ aufgabe-11.html
         </TR>
       </TBODY>
     </TABLE>
+
+    <H2>Fortgeschrittene</H2>
+    <P>Hier sehen Sie die Schulungen für <SPAN class="kursiv">Fortgeschrittene</SPAN></P>
+    <H2>Experten</H2>
+    <P>Im Bereich für Experten werden derzeit (noch) keine Kurse
+    angeboten. Kurse zu den folgenden Themen sind in Vorbereitung:
+
+      <UL>
+        <LI>Umgang mit Containerumgebungen (Docker und Podman)</LI>
+        <LI>Verschlüsselte Dateisysteme</LI>
+      </UL>
+    </P>
   </MAIN>
   <FOOTER>
     <HR>
-    <DIV align="right">&copy; KIT</DIV>
+    <DIV align="right">
+      <A HREF="impressum.html">Impressum</A>
+      &nbsp;|&nbsp;
+      &copy; KIT
+      &nbsp;|&nbsp;
+      <A HREF="#seitenanfang">Zum Seitenanfang</A>
+    </DIV>
   </FOOTER>
 </BODY>
 </HTML>
@@ -105,5 +126,7 @@ stilvorlage.css
 
 === Lernziele ===
 
-* Kennenlernen der unterstützten Dateiformate für Bilder
-* Einbinden eines Bildes im PNG-Format aus einer externen Datei
+Sie lernen die unterstützten Dateiformate für Bilder kennen und binden
+ein Bildes im PNG-Format aus einer externen Datei ein.
+
+=== ToDo ===
