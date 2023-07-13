@@ -1,0 +1,82 @@
+== Zugehörigkeit ==
+
+Kapitel 7
+
+== Aufgabe 7b: Erstellen von Überschriften ==
+
+Den Ausgangspunkt bildet das Ergebnis von Aufgabe 7a. Jetzt fügen Sie
+der bestehenden Webseite weitere Strukturebenen hinzu. Ergänzen Sie
+unter der Überschrift H1 die folgenden Elemente:
+
+* Überschrift der Klasse H2 "Grundlagen"
+* Absatz mit dem Inhalt "Hier sehen Sie die Schulungen für Einsteiger"
+* Überschrift der Klasse H2 "Fortgeschrittene"
+* Absatz mit dem Inhalt "Hier sehen Sie die Schulungen für Fortgeschrittene"
+* Überschrift der Klasse H2 "Experten"
+* Absatz mit dem Inhalt "Hier sehen Sie die Schulungen für Experten"
+
+Ergänzen Sie eine Stilangabe für die Überschrift der Klasse H2, bspw.
+mit schwarzer Textfarbe und orangem Hintergrund.
+
+Die Lesbarkeit der Überschriften muss erhöht werden. Der Abstand zwischen
+der Überschrift und dem Rand der umschließenden Box ist zu knapp. Vergrößern 
+Sie diesen um 1rem für alle H1-Überschriften und um 0.5rem für alle
+H2-Überschriften.
+
+=== Lösung ===
+
+----
+<!doctype html>
+<HTML lang="de">
+<HEAD>
+  <TITLE>Veranstaltungsübersicht</TITLE>
+  <META name="description" content="Übersicht zu den Veranstaltungen">
+  <META charset="utf8">
+  <STYLE>
+    p {
+      background-color: white;
+      color: black;
+    }
+    h1 {
+      background-color: darkblue;
+      color: white;
+      padding: 1rem;
+    }
+    h2 {
+      background-color: orange;
+      color: black;
+      padding: 0.5rem;
+    }
+  </STYLE>
+</HEAD>
+<BODY>
+  <HEADER>
+    1. Juli 2023
+    <HR>
+  </HEADER>
+  <MAIN>
+    <H1>Übersicht zu den Veranstaltungen</H1>
+    <H2>Grundlagen</H2>
+    <P>Hier sehen Sie die Schulungen für Einsteiger</P>
+    <H2>Fortgeschrittene</H2>
+    <P>Hier sehen Sie die Schulungen für Fortgeschrittene</P>
+    <H2>Experten</H2>
+    <P>Hier sehen Sie die Schulungen für Experten</P>
+  </MAIN>
+  <FOOTER>
+    <HR>
+    <DIV align="right">&copy; KIT</DIV>
+  </FOOTER>
+</BODY>
+</HTML>
+----
+
+=== Lernziele ===
+
+Sie lernen die HTML-Tags für Überschriften verschiedenenr Ebenen kennen
+und gestalten diese passend.
+
+=== Fragen zur Lerneinheit ===
+
+* Welche HTML-Tags für Überschriften kennen Sie?
+* Nennen Sie zwei Möglichkeiten, um Text zu gestalten.
