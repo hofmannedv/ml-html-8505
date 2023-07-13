@@ -1,0 +1,14 @@
+=== Fragen zur Lerneinheit ===
+
+1 Was ist der Unterschied zwischen serifenloser und serifenbehafteter Schrift?
+
+Serifenlose Schriftarten sind schnörkellos, während serifenbehaftete
+Schriftarten kleine Verzierungen besitzen.
+
+
+2 Worin unterscheiden sich die beiden HTML-Tags SPAN und DIV?
+
+Beide HTML-Tags bauen Container, in denen sich andere HTML-Tags befinden
+können. <SPAN> bleibt innerhalb der Zeile, <DIV> erzeugt einen
+Zeilenumbruch.
+
