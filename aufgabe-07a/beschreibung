@@ -1,0 +1,62 @@
+== Zugehörigkeit ==
+
+Kapitel 7
+
+== Aufgabe 7a: HTML-Dokument strukturieren ==
+
+Den Ausgangspunkt bildet das Ergebnis von Aufgabe 6. Strukturieren Sie 
+die Webseite in
+
+* eine Kopfzeile, bestehend aus dem heutigen Datum (links angeordnet)
+  und einer horizontalen Linie am unteren Rand der Kopfzeile
+* eine Angabe zum Hauptteil mit dem bereits vorhandenen Absatz
+* eine Fußzeile, bestehend aus einer horizontalen Linie am oberen Rand 
+  der Fußzeile und einem rechtsbündig angeordneten Text "(C) KIT".
+  Benutzen Sie dabei das HTML-Sonderzeichen für das Copyright-Symbol.
+
+=== Lösung ===
+
+----
+<!doctype html>
+<HTML lang="de">
+<HEAD>
+  <TITLE>Veranstaltungsübersicht</TITLE>
+  <META name="description" content="Übersicht zu den Veranstaltungen">
+  <META charset="utf8">
+  <STYLE>
+    p {
+      background-color: white;
+      color: black;
+    }
+    h1 {
+      background-color: darkblue;
+      color: white;
+    }
+  </STYLE>
+</HEAD>
+<BODY>
+  <HEADER>
+    1. Juli 2023
+    <HR>
+  </HEADER>
+  <MAIN>
+    <P>Übersicht zu den Veranstaltungen</P>
+  </MAIN>
+  <FOOTER>
+    <HR>
+    <DIV align="right">&copy; KIT</DIV>
+  </FOOTER>
+</BODY>
+</HTML>
+----
+
+=== Lernziele ===
+
+Sie lernen die Strukturierung einer Webseite und die Unterteilung in
+einzelne logische Bereiche kennen. Hinzukommen die HTML-Tags für
+Absätze, Linien, Blöcke und Sonderzeichen.
+
+=== Fragen zur Lerneinheit ===
+
+* Welche HTML-Tags zur logischen Strukturierung einer Webseite kennen Sie?
+* Wie geben Sie ein HTML-Sonderzeichen an?
