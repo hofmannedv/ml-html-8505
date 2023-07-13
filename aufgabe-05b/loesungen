@@ -1,0 +1,18 @@
+=== Fragen zur Lerneinheit ===
+
+1 In welchem Zusammenhang ist die Vererbung von Eigenschaften wichtig?
+
+Wichtig ist die Vererbung bei der Verschachtelung von HTML-Elementen.
+Eigenschaften äußerer Elemente werden an innere Elemente weitergegeben.
+
+
+2 Welche Eigenschaften werden nicht an nachgeordnete Elemente vererbt?
+
+Eigenschaften zur Positionierung, zum Layouten und zur Gestaltung auf
+der Basis des Box-Modells werden i.d.R. nicht vererbt. Dazu zählen:
+
+- display
+- width, height, padding, border, margin
+- background
+- position, top, right, bottom, left
+- float, clear
