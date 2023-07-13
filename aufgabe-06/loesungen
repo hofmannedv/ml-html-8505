@@ -1,0 +1,17 @@
+=== Fragen zur Lerneinheit ===
+
+1 In welcher Reihenfolge arbeitet die Rendering-Engine die Stilangaben ab?
+
+Die Stilangaben werden von oben nach unten abgearbeitet.
+
+
+2 Welche Möglichkeiten kennen Sie, um die Reihenfolge und Anwendung der
+  Stilangaben zu verändern?
+
+Möglichkeit 1 ist eine veränderte Einbindung und Anordnung der
+Stilvorlagen. Möglichkeit 2 ist die Markierung einer Stilangabe als
+wichtig wie folgt:
+
+----
+h2 { color: red !important; }
+----
