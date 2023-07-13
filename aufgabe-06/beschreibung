@@ -59,6 +59,11 @@ Hintergrund.
 
 === Lernziele ===
 
-* Kennenlernen der Strukturierung einer Webseite und Unterteilung in
-  einzelne Bereiche
-* Ergänzung um HTML-Tags für Absätze und Linien
+Sie erlernen, wie Sie mehrere Stilangaben in einer HTML-Datei platzieren
+und anwenden.
+
+=== Fragen zur Lerneinheit ===
+
+* In welcher Reihenfolge arbeitet die Rendering-Engine die Stilangaben ab?
+* Welche Möglichkeiten kennen Sie, um die Reihenfolge und Anwendung der
+  Stilangaben zu verändern?
