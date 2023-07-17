@@ -1,33 +1,3 @@
-== Zugehörigkeit ==
-
-Kapitel 7
-
-== Aufgabe 7f: Formular mit Auswahlfeld ergänzen ==
-
-Den Ausgangspunkt bildet das Ergebnis von Aufgabe 7d. Jetzt wird ein
-Formular hinzugefügt.
-
-Ergänzen Sie die Veranstaltungsübersicht um für die Kategorie der
-Fortgeschrittenen um ein Auswahlfeld (Drop-Down-Menü) mit den folgenden 
-Möglichkeiten:
-
-* 9h00-10h30 Paketverwaltung unter Debian GNU/Linux
-* 9h00-10h30 Anpassen des Bootloaders GRUB
-* 11h00-12h30 Daten sicher ver- und entschlüsseln
-
-Vorausgewählt ist die erste Schulung. Fügen Sie zwei Knöpfe hinzu, um
-die Auswahl abzubrechen bzw. zu bestätigen. Wählen Sie eine passende 
-Beschriftung der Knöpfe.
-
-Das Formular wird ausgewertet von der fiktiven Datei 
-
-http://schulungen-fuer-experten.de/auswertung.php
-
-Berücksichtigen Sie diese Angabe bei der Erstellung des Formulars.
-
-=== Lösung ===
-
-----
 <!doctype html>
 <HTML lang="de" id="seitenanfang">
 <HEAD>
@@ -97,7 +67,6 @@ Berücksichtigen Sie diese Angabe bei der Erstellung des Formulars.
 
     <H2>Fortgeschrittene</H2>
     <P>Hier sehen Sie die Schulungen für <SPAN class="kursiv">Fortgeschrittene</SPAN></P>
-
     <!-- Hier folgt das Formular -->
     <FORM action="http://schulungen-fuer-experten.de/auswertung.php" method="post">
       <SELECT id="kursauswahl" name="kursliste">
@@ -131,17 +100,4 @@ Berücksichtigen Sie diese Angabe bei der Erstellung des Formulars.
   </FOOTER>
 </BODY>
 </HTML>
-----
 
-=== Lernziele ===
-
-Sie lernen die Formulierung von Formularen kennen und verstehen, welche
-Varianten HTML bereitstellt und die Auswertung funktioniert.
-
-=== Fragen zur Lerneinheit ===
-
-1 Welche Schritte sind bei einem HTML-Formular zu beachten?
-
-2 Kann ein HTML-Formular mit reinem HTML ausgewertet werden?
-
-3 Welche Varianten von Eingabefeldern kennen Sie?
