@@ -1,0 +1,138 @@
+== Zugehörigkeit ==
+
+Kapitel 7
+
+== Aufgabe 7f: Formular mit Auswahlfeld ergänzen ==
+
+Den Ausgangspunkt bildet das Ergebnis von Aufgabe 7d. Jetzt wird ein
+Formular hinzugefügt.
+
+Ergänzen Sie die Veranstaltungsübersicht um für die Kategorie der
+Fortgeschrittenen um ein Auswahlfeld (Drop-Down-Menü) mit den folgenden 
+Möglichkeiten:
+
+* 9h00-10h30 Paketverwaltung unter Debian GNU/Linux
+* 9h00-10h30 Anpassen des Bootloaders GRUB
+* 11h00-12h30 Daten sicher ver- und entschlüsseln
+
+Vorausgewählt ist die erste Schulung. Fügen Sie zwei Knöpfe hinzu, um
+die Auswahl abzubrechen bzw. zu bestätigen. Wählen Sie eine passende 
+Beschriftung der Knöpfe.
+
+Das Formular wird ausgewertet von der fiktiven Datei 
+
+http://schulungen-fuer-experten.de/auswertung.php
+
+Berücksichtigen Sie diese Angabe bei der Erstellung des Formulars.
+
+=== Lösung ===
+
+----
+<!doctype html>
+<HTML lang="de" id="seitenanfang">
+<HEAD>
+  <TITLE>Veranstaltungsübersicht</TITLE>
+  <META name="description" content="Übersicht zu den Veranstaltungen">
+  <META charset="utf8">
+  <STYLE>
+    p {
+      background-color: white;
+      color: black;
+    }
+    h1 {
+      background-color: darkblue;
+      color: white;
+      padding: 1rem;
+    }
+    h2 {
+      background-color: orange;
+      color: black;
+      padding: 0.5rem;
+      font-family: Helvetica, Arial, Sans-Serif;
+    }
+    .kursiv {
+      font-style: italic;
+    }
+  </STYLE>
+</HEAD>
+<BODY>
+  <HEADER>
+    1. Juli 2023
+    <HR>
+  </HEADER>
+  <MAIN>
+    <H1>Übersicht zu den Veranstaltungen</H1>
+    <H2>Grundlagen</H2>
+    <P>Hier sehen Sie die Schulungen für <B>Einsteiger</B></P>
+    <TABLE>
+      <THEAD>
+        <TR>
+          <TH>Zeitraum</TH>
+          <TH>Thema</TH>
+          <TH>Sprecher</TH>
+          <TH>Raum</TH>
+        </TR>
+      </THEAD>
+      <TBODY>
+        <TR>
+          <TD>9:00-10:30</TD>
+          <TD>Workshop: Grundlagen der Linux-Kommandozeile</TD>
+          <TD>Robert F. Link</TD>
+          <TD>105</TD>
+        </TR>
+        <TR>
+          <TD>10:45-12:00</TD>
+          <TD>Sichere Kommunkation mit ssh</TD>
+          <TD>S. Uperschlau</TD>
+          <TD>107</TD>
+        </TR>
+        <TR>
+          <TD>10:45-12:00</TD>
+          <TD>Tips und Tricks für die Datenverwaltung</TD>
+          <TD>Robert F. Link</TD>
+          <TD>105</TD>
+        </TR>
+      </TBODY>
+    </TABLE>
+
+    <H2>Fortgeschrittene</H2>
+    <P>Hier sehen Sie die Schulungen für <SPAN class="kursiv">Fortgeschrittene</SPAN></P>
+
+    <!-- Hier folgt das Formular -->
+
+    <H2>Experten</H2>
+    <P>Im Bereich für Experten werden derzeit (noch) keine Kurse
+    angeboten. Kurse zu den folgenden Themen sind in Vorbereitung:
+
+      <UL>
+        <LI>Umgang mit Containerumgebungen (Docker und Podman)</LI>
+        <LI>Verschlüsselte Dateisysteme</LI>
+      </UL>
+    </P>
+  </MAIN>
+  <FOOTER>
+    <HR>
+    <DIV align="right">
+      <A HREF="impressum.html">Impressum</A>
+      &nbsp;|&nbsp;
+      &copy; KIT
+      &nbsp;|&nbsp;
+      <A HREF="#seitenanfang">Zum Seitenanfang</A>
+    </DIV>
+  </FOOTER>
+</BODY>
+</HTML>
+----
+
+=== Lernziele ===
+
+Sie lernen die Formulierung von Formularen kennen und verstehen, welche
+Varianten HTML bereitstellt und die Auswertung funktioniert.
+
+=== Fragen zur Lerneinheit ===
+
+1 Welche Schritte sind bei einem HTML-Formular zu beachten?
+
+2 Kann ein HTML-Formular mit reinem HTML ausgewerten werden?
+
+3 Welche Varianten von Eingabefeldern kennen Sie?
