@@ -1,0 +1,29 @@
+=== Fragen zur Lerneinheit ===
+
+1 Welche Schritte sind bei einem HTML-Formular zu beachten?
+
+- Angabe des auswertenden Programms oder Skripts
+- jedes Eingabefeld bedarf eines eindeutigen Namens, damit die
+  Auswahl zugeordnet werden kann
+- mehrere Knöpfe dienen zum Abbruch bzw. zur Bestätigung der Auswahl
+- die Knöpfe werden unter dem Formular angeordnet
+
+
+2 Kann ein HTML-Formular mit reinem HTML ausgewertet werden?
+
+Nein. Dazu ist ein Erweiterung auf dem Webserver notwendig, bspw. PHP,
+Python oder Java.
+
+
+3 Welche Varianten von Eingabefeldern kennen Sie?
+
+HTML stellt zur Verfügung:
+
+- Texteingabefelder, einzeilig
+- Texteingabefelder, mehrzeilig
+- Auswahlkästchen (Ein- und Mehrfachauswahl)
+- Auswahlkreise/Optionsfelder (Einfachauswahl)
+- Menüs
+
+Felder können zu Gruppen zusammengefasst werden.
+
